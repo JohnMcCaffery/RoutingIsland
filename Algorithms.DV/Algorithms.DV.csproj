@@ -5,20 +5,19 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D1693BEB-5262-45D0-839D-7E68B32DC4C3}</ProjectGuid>
+    <ProjectGuid>{A07D0E06-47BF-4215-AB84-2573596F2AB4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>System2Diana</RootNamespace>
-    <AssemblyName>System2Diana</AssemblyName>
+    <RootNamespace>Algorithms.DV</RootNamespace>
+    <AssemblyName>Algorithms.DV</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Y:\OpenSim.7.3.1\RoutingProject\bin\</OutputPath>
+    <OutputPath>..\..\..\..\..\opensim-0.7.3.1\bin\RoutingProject\bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -26,55 +25,42 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>Y:\OpenSim.7.3.1\RoutingProject\bin\</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Nini">
+      <HintPath>..\..\..\..\..\opensim-0.7.3.1\bin\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverse">
+      <HintPath>..\..\Lib\OpenMetaverse.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverseTypes">
+      <HintPath>..\..\Lib\OpenMetaverseTypes.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DV.cs" />
+    <Compile Include="DVNode.cs" />
+    <Compile Include="DVPacket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="util\Distance.cs" />
+    <Compile Include="util\DistanceVector.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ninject-ninject.extensions.conventions-720a194\src\Ninject.Extensions.Conventions\Ninject.Extensions.Conventions.csproj">
-      <Project>{C9016F7B-68CE-46A7-80A7-A4592B6F0EAC}</Project>
-      <Name>Ninject.Extensions.Conventions</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\ninject\ninject-ninject-f39dcf0\src\Ninject\Ninject.csproj">
-      <Project>{ADF369E2-6B9E-4D56-9B82-D273AE41EC2D}</Project>
-      <Name>Ninject</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Algorithms.Dijkstra\Algorithms.Dijkstra.csproj">
-      <Project>{82821A63-2F4D-46F0-BA6B-9F9814E2D266}</Project>
-      <Name>Algorithms.Dijkstra</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Algorithms.DV\Algorithms.DV.csproj">
-      <Project>{A07D0E06-47BF-4215-AB84-2573596F2AB4}</Project>
-      <Name>Algorithms.DV</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Algorithms.LinkState\Algorithms.LinkState.csproj">
-      <Project>{25639033-B211-49B9-AF40-B043A79728FB}</Project>
-      <Name>Algorithms.LinkState</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Control\Control.csproj">
-      <Project>{8F012C59-269B-48CD-927B-3463FA1CAE0C}</Project>
-      <Name>Control</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DependencyInjection\DependencyInjection.csproj">
-      <Project>{891C9C4B-51CF-46F7-90ED-D314C5AABB22}</Project>
-      <Name>DependencyInjection</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Diagrams\Diagrams.csproj">
-      <Project>{A702800A-3575-4FEC-81FA-375764BA318D}</Project>
-      <Name>Diagrams</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Framework\Framework.csproj">
       <Project>{CA2E0C0E-692C-4E05-BAE2-A7991CA66B24}</Project>
       <Name>Framework</Name>
@@ -86,14 +72,6 @@
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{4D7A5872-7923-4D9B-8E23-DE2DC03E3891}</Project>
       <Name>Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MRM\MRM.csproj">
-      <Project>{CFED367C-9EB1-4416-B936-53C5F30079B6}</Project>
-      <Name>MRM</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\View\View.csproj">
-      <Project>{0C83DEAD-6A1C-4871-8657-AD63DD76EB9A}</Project>
-      <Name>View</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

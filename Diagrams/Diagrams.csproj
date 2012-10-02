@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\..\Tests\</OutputPath>
+    <OutputPath>..\..\..\..\..\opensim-0.7.3.1\bin\RoutingProject\bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -38,14 +38,6 @@
     </Reference>
     <Reference Include="Nini">
       <HintPath>..\..\..\..\..\opensim-0.7.3.1\bin\Nini.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject, Version=2.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Lib\Ninject.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Extensions.Conventions, Version=2.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ninject-ninject.extensions.conventions-720a194\build\debug\Ninject.Extensions.Conventions.dll</HintPath>
     </Reference>
     <Reference Include="OpenMetaverse, Version=0.9.0.29631, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -229,6 +221,14 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\..\..\ninject-ninject.extensions.conventions-720a194\src\Ninject.Extensions.Conventions\Ninject.Extensions.Conventions.csproj">
+      <Project>{C9016F7B-68CE-46A7-80A7-A4592B6F0EAC}</Project>
+      <Name>Ninject.Extensions.Conventions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ninject\ninject-ninject-f39dcf0\src\Ninject\Ninject.csproj">
+      <Project>{ADF369E2-6B9E-4D56-9B82-D273AE41EC2D}</Project>
+      <Name>Ninject</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JM726\JM726.Lib.csproj">
       <Project>{56C6BDF3-6A66-40FB-B880-4510243C676A}</Project>
       <Name>JM726.Lib</Name>
