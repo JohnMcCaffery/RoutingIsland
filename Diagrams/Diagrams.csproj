@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A702800A-3575-4FEC-81FA-375764BA318D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Diagrams</RootNamespace>
+    <AssemblyName>Diagrams</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\Tests\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Nini">
+      <HintPath>..\..\..\..\..\opensim-0.7.3.1\bin\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject, Version=2.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Extensions.Conventions, Version=2.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ninject-ninject.extensions.conventions-720a194\build\debug\Ninject.Extensions.Conventions.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverse, Version=0.9.0.29631, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\OpenMetaverse.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverseTypes, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\OpenMetaverseTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.Region.MRM.API">
+      <HintPath>..\..\..\..\..\opensim-0.7.3.1\bin\OpenSim.Region.MRM.API.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SmartThreadPool">
+      <HintPath>..\..\..\..\..\opensim-0.7.3.1\bin\SmartThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms.dijkstra\Dijkstra.cs" />
+    <Compile Include="Algorithms.dijkstra\DijkstraNode.cs" />
+    <Compile Include="Algorithms.linkstate\LinkStatePacket.cs" />
+    <Compile Include="Algorithms.dv\DV.cs" />
+    <Compile Include="Algorithms.dv\DVNode.cs" />
+    <Compile Include="Algorithms.dv\DVPacket.cs" />
+    <Compile Include="Algorithms.dv\util\Distance.cs" />
+    <Compile Include="Algorithms.dv\util\DistanceVector.cs" />
+    <Compile Include="Algorithms.linkstate\LinkState.cs" />
+    <Compile Include="Algorithms.linkstate\LinkStateNode.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\ChangeAlg.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\Clear.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\ControlButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control\Impl\Controls\Buttons\ControlToggle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control\Impl\Controls\Buttons\Create.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\Delete.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\Faster.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\Floor.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\ModifyLinks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control\Impl\Controls\Buttons\Open.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\Pause.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\Play.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\Record.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\RoutingTable.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\Save.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\Slower.cs" />
+    <Compile Include="Control\Impl\Controls\Buttons\Step.cs" />
+    <Compile Include="Control\Impl\Entities\MappableEntity.cs" />
+    <Compile Include="Control\Impl\Module\AutosaveHUD.cs" />
+    <Compile Include="Control\Impl\Module\CreateSequenceControl.cs" />
+    <Compile Include="Control\Impl\Module\SequenceControl.cs" />
+    <Compile Include="Control\Impl\Util\State\CreateTopologyState.cs" />
+    <Compile Include="Control\Impl\Util\State\IndividualState.cs" />
+    <Compile Include="Control\Impl\Util\IState.cs" />
+    <Compile Include="Control\Impl\Util\Permission\GodPermissions.cs" />
+    <Compile Include="Control\Impl\Util\SandboxTopologyManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control\Impl\Util\SequenceTopologyManager.cs" />
+    <Compile Include="Control\Impl\Util\State\SharedState.cs" />
+    <Compile Include="Control\Interfaces\IControlLink.cs" />
+    <Compile Include="Control\Impl\Entities\ControlLink.cs" />
+    <Compile Include="Control\Impl\Entities\ControlNode.cs" />
+    <Compile Include="Control\Interfaces\IControlEntity.cs" />
+    <Compile Include="Control\Interfaces\IControlNode.cs" />
+    <Compile Include="Control\Impl\Entities\Sandbox\SandboxControlEP.cs" />
+    <Compile Include="Control\Impl\Entities\Sandbox\SandboxControlLink.cs" />
+    <Compile Include="Control\Impl\Entities\Sandbox\SandboxControlNode.cs" />
+    <Compile Include="Control\Impl\Entities\Sandbox\SandboxControlRouter.cs" />
+    <Compile Include="Control\Impl\Module\CreateTopologyControl.cs" />
+    <Compile Include="Control\Impl\Module\LockedWallSandbox.cs" />
+    <Compile Include="Control\Impl\Module\FullHudControl.cs" />
+    <Compile Include="Control\Impl\Module\TopologyControl.cs" />
+    <Compile Include="Control\Impl\Util\IControlUtil.cs" />
+    <Compile Include="Control\Impl\Module\Abs\Control.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control\Impl\Module\Abs\SandboxControl.cs" />
+    <Compile Include="Control\Impl\Util\Permission\FreePermissions.cs" />
+    <Compile Include="Control\Impl\Util\Permission\LockedPermissions.cs" />
+    <Compile Include="Control\Impl\Util\FileWorker.cs" />
+    <Compile Include="Control\Impl\Util\ITopologyManager.cs" />
+    <Compile Include="Control\Impl\Util\ISequenceManager.cs" />
+    <Compile Include="Control\Impl\Util\Permission\OwnerPermissions.cs" />
+    <Compile Include="Control\Impl\Util\SequenceManager.cs" />
+    <Compile Include="Control\Impl\Util\TopologyManager.cs" />
+    <Compile Include="Framework\Interfaces\Entities\general\IOwned.cs" />
+    <Compile Include="Framework\Util\MicroThreadQueue.cs" />
+    <Compile Include="Framework\Util\OpensimLogWriter.cs" />
+    <Compile Include="DependencyInjection\impl\DynamicLoaderModule.cs" />
+    <Compile Include="DependencyInjection\impl\NinjectFactory.cs" />
+    <Compile Include="DependencyInjection\interfaces\IDynamicLoaderModule.cs" />
+    <Compile Include="Framework\Interfaces\Entities\general\IWorldPrim.cs" />
+    <Compile Include="Framework\Interfaces\Entities\IWrappedLink.cs" />
+    <Compile Include="Framework\Util\Route.cs" />
+    <Compile Include="Model\Impl\Entities\MNodeHighlight.cs" />
+    <Compile Include="Model\Interfaces\entities\IMNode.cs" />
+    <Compile Include="Model\Impl\Abs\AbstractAlgorithmNode.cs" />
+    <Compile Include="Framework\Interfaces\Module\IControl.cs" />
+    <Compile Include="Framework\Util\OpensimLogReader.cs" />
+    <Compile Include="Framework\Abs\Entities\general\LogicEntityWrapper.cs" />
+    <Compile Include="Framework\Abs\Entities\general\LogicEntity.cs" />
+    <Compile Include="Framework\Abs\Entities\LinkWrapper.cs" />
+    <Compile Include="Framework\Abs\Entities\NodeWrapper.cs" />
+    <Compile Include="Framework\Abs\Module\AbstractModule.cs" />
+    <Compile Include="Framework\Interfaces\Entities\general\IEntity.cs" />
+    <Compile Include="Framework\Interfaces\Entities\general\ILogicEntity.cs" />
+    <Compile Include="Framework\Interfaces\Entities\general\IPrim.cs" />
+    <Compile Include="Framework\Interfaces\Factories\IPrimFactory.cs" />
+    <Compile Include="Framework\Interfaces\Entities\ILink.cs" />
+    <Compile Include="Framework\Interfaces\Entities\INode.cs" />
+    <Compile Include="Model\Interfaces\entities\IMPacket.cs" />
+    <Compile Include="Model\Impl\Entities\MLink.cs" />
+    <Compile Include="Model\Impl\Entities\MNode.cs" />
+    <Compile Include="Model\Interfaces\algorithm\IAlgorithm.cs" />
+    <Compile Include="Model\Interfaces\entities\IMLink.cs" />
+    <Compile Include="Framework\Interfaces\Entities\IPacket.cs" />
+    <Compile Include="Model\Impl\Entities\MPacket.cs" />
+    <Compile Include="Framework\Delegates\Delegates.cs" />
+    <Compile Include="Model\Interfaces\algorithm\IAlgorithmNode.cs" />
+    <Compile Include="Framework\Interfaces\Module\general\IModule.cs" />
+    <Compile Include="Model\Interfaces\entities\IMNodeExternal.cs" />
+    <Compile Include="Model\Interfaces\entities\IMNodeInternal.cs" />
+    <Compile Include="Framework\Interfaces\Module\IModel.cs" />
+    <Compile Include="Framework\Interfaces\Module\IView.cs" />
+    <Compile Include="Model\Impl\Module\Model.cs" />
+    <Compile Include="MRM\BindableHost.cs" />
+    <Compile Include="MRM\BindableWorld.cs" />
+    <Compile Include="MRM\Scripts\SimpleButtonScript.cs" />
+    <Compile Include="MRM\Controls\ControlException.cs" />
+    <Compile Include="MRM\Controls\IPermissions.cs" />
+    <Compile Include="MRM\MRMMetaSystem.cs" />
+    <Compile Include="MRM\MRMPrimFactory - controls.cs" />
+    <Compile Include="MRM\Controls\Buttons\IButton.cs" />
+    <Compile Include="MRM\Controls\Buttons\IToggle.cs" />
+    <Compile Include="MRM\Controls\Buttons\Toggle.cs" />
+    <Compile Include="MRM\Controls\Buttons\TouchButton.cs" />
+    <Compile Include="MRM\Controls\Dialogs\Dialog.cs" />
+    <Compile Include="MRM\Controls\Dialogs\SaveDialog.cs" />
+    <Compile Include="MRM\Controls\Dialogs\SelectDialog.cs" />
+    <Compile Include="MRM\MRMPrimFactory - prims.cs" />
+    <Compile Include="MRM\IMRMPrimFactory.cs" />
+    <Compile Include="MRM\MRMPrim.cs" />
+    <Compile Include="MRM\MRMSystem.cs" />
+    <Compile Include="MRM\MyChatEventArgs.cs" />
+    <Compile Include="MRM\Scripts\MultiBindController.cs" />
+    <Compile Include="MRM\Scripts\SingleTouchScript.cs" />
+    <Compile Include="MRM\TrackedObjectAccessor.cs" />
+    <Compile Include="View\Impl\Entities\PrimWrapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Impl\Entities\VLink.cs" />
+    <Compile Include="View\Impl\Entities\VNode.cs" />
+    <Compile Include="View\Impl\Module\View.cs" />
+    <Compile Include="View\Interfaces\IVLink.cs" />
+    <Compile Include="View\Interfaces\IVNode.cs" />
+    <Compile Include="View\Interfaces\IVPacket.cs" />
+    <Compile Include="View\Impl\Entities\VPacket.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AppDomainSplitter.cd" />
+    <None Include="Control.cd" />
+    <None Include="Full Expanded Params.cd" />
+    <None Include="Full Expanded.cd" />
+    <None Include="Test.cd" />
+    <None Include="Wrapper.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\JM726\JM726.Lib.csproj">
+      <Project>{56C6BDF3-6A66-40FB-B880-4510243C676A}</Project>
+      <Name>JM726.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

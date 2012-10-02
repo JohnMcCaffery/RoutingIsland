@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="GRAPH">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="GraphInfo">
+          <xs:all>
+            
+            <xs:element name="NODES">
+              <xs:complexType>
+                <xs:choice>
+                  
+                  <xs:element name="ROUTER" minOccurs="0" maxOccurs="unbounded" type="mstns:NodeInfo" />
+                  <xs:element name="NODE" minOccurs="0" maxOccurs="unbounded" type="mstns:NodeInfo" />
+                  
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="LINKS">
+              <xs:complexType>
+                <xs:choice>
+                  
+                  <xs:element name="ROUTER" minOccurs="0" maxOccurs="unbounded" type="mstns:LinkInfo" />
+                  
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+            
+          </xs:all>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="GraphInfo">
+    <xs:attribute name="X" type="xs:float" use="optional" />
+    <xs:attribute name="Y" type="xs:float" use="optional" />
+    <xs:attribute name="Z" type="xs:float" use="optional" />
+  </xs:complexType>
+  
+  <xs:complexType name="NodeInfo">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="X" type="xs:float" use="required" />
+        <xs:attribute name="Y" type="xs:float" use="required" />
+        <xs:attribute name="Z" type="xs:float" use="required" />
+        <xs:attribute name="COLOUR" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="LinkInfo">
+      <xs:attribute name="Node1" type="xs:string" use="required"  />
+      <xs:attribute name="Node2" type="xs:string" use="required" />
+      <xs:attribute name="Weight" type="xs:float" use="optional" />
+      <xs:attribute name="Bandwidth" type="xs:float" use="optional" />
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Diagrams.Control.impl.Buttons.ChatButton">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAQoAggACAAAAAAAAAAAAQQAAAAAAFAAAgCAAAAAAI=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ChatButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.Toggle">
+    <Position X="15.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAAACAAAAAAAAAAAAUAIYAAEAAAAA4QAAAAAAI=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\Toggle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.AbstractModule&lt;TNode, TLink&gt;">
+    <Position X="13" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AMAgAFgJAAIAAAUEFAAAMAAAUASAAGgAIAAQAAgIBgA=</HashCode>
+      <FileName>Framework\Abs\Module\AbstractModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Controls.Buttons.ChatButtonSetupSingle">
+    <Position X="21" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEABgAAgBAAAAiAAAAAAAAAAAAAAAAAAIAgEBAiAIAg=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ChatButtonSetup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Controls.Buttons.ChatButtonSetupMultiple">
+    <Position X="18.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAgAIAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ChatButtonSetup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.ControlButton">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAAAACAAAAAAAAAAAAUAAIAAAAAAAAgAAAAAAAI=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\ControlButton.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Button" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.ControlToggle">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAgAAAAAAAQAAABCAAAYAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\ControlToggle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Toggle" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.TouchButton">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAAAICAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAI=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\TouchButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Controls.Dialogs.Dialog">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAABCIAACAAAAAAAAAAACAAAFAAQAAABBAAAAAAE=</HashCode>
+      <FileName>Control\impl\Controls\Dialogs\Dialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Controls.Dialogs.SaveDialog">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAAAiAAAAAAAAAAAAAAAAUQAAQAAAAAAAAAQA=</HashCode>
+      <FileName>Control\impl\Controls\Dialogs\SaveDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Controls.Dialogs.SelectDialog">
+    <Position X="3.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAgEAAAEAAAAAADAAAAAIYA=</HashCode>
+      <FileName>Control\impl\Controls\Dialogs\SelectDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Util.FileWorker">
+    <Position X="18.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Control\impl\Util\FileWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Util.TopologyManager">
+    <Position X="17" Y="22.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Control" Type="Diagrams.Control.impl.Module.IControlUtil" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17" Y="22.794" />
+        <Point X="12.333" Y="22.794" Type="JumpStart" />
+        <Point X="12.167" Y="22.794" Type="JumpEnd" />
+        <Point X="11.208" Y="22.794" Type="JumpStart" />
+        <Point X="11.042" Y="22.794" Type="JumpEnd" />
+        <Point X="8.427" Y="22.794" Type="JumpStart" />
+        <Point X="8.26" Y="22.794" Type="JumpEnd" />
+        <Point X="7.209" Y="22.794" Type="JumpStart" />
+        <Point X="7.042" Y="22.794" Type="JumpEnd" />
+        <Point X="6.771" Y="22.794" Type="JumpStart" />
+        <Point X="6.605" Y="22.794" Type="JumpEnd" />
+        <Point X="6.25" Y="22.794" />
+        <Point X="6.25" Y="22.15" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAEIACEACLIgCAAEBCAgCEyAAAEIAAAYAgEIBRAYFE=</HashCode>
+      <FileName>Control\impl\Util\TopologyManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Control" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Util.SandboxTopologyManager">
+    <Position X="17" Y="27" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Control\impl\Util\SandboxTopologyManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.Impl.Module.Control">
+    <Position X="10.25" Y="15.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIggAACIAAAADCUEogAAAAAAA0QADAAAIAgSAA1IBAA=</HashCode>
+      <FileName>Control\impl\Module\Control.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Record" />
+      <Property Name="Topology" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Util.SequenceManager">
+    <Position X="19.5" Y="22.5" Width="2.5" />
+    <NestedTypes>
+      <Class Name="Diagrams.Control.impl.Util.SequenceManager.RecordControl" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Control\impl\Util\SequenceManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <AssociationLine Name="Control" Type="Diagrams.IModule" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.5" Y="26.933" />
+        <Point X="8.427" Y="26.933" Type="JumpStart" />
+        <Point X="8.26" Y="26.933" Type="JumpEnd" />
+        <Point X="4.938" Y="26.933" />
+        <Point X="4.938" Y="22.185" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACEABgCEAAEIhQAAEAAAIQAAAFQQCEAAIAAEgCoBAAA=</HashCode>
+      <FileName>Control\impl\Util\SequenceManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Control" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.Impl.Module.SandboxControl">
+    <Position X="7.75" Y="13.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>hEQDBUARZgBAAFQIAAABCSAAoCCQjAAIIkQQASAAAAE=</HashCode>
+      <FileName>Control\impl\Module\SandboxControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Entities.SandboxControlEP">
+    <Position X="45" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Entities\SandboxControlEP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.ModifyLinks">
+    <Position X="4" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAkAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\ModifyLinks.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_dialog" />
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Slower">
+    <Position X="11" Y="9.75" Width="1.75" />
+    <AssociationLine Name="_control" Type="Diagrams.IModule" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="11.702" />
+        <Point X="9.958" Y="11.702" Type="JumpStart" />
+        <Point X="9.792" Y="11.702" Type="JumpEnd" />
+        <Point X="5.458" Y="11.702" Type="JumpStart" />
+        <Point X="5.292" Y="11.702" Type="JumpEnd" />
+        <Point X="4.062" Y="11.702" />
+        <Point X="4.062" Y="20" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAABAAEAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Slower.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Faster">
+    <Position X="13" Y="9.75" Width="1.75" />
+    <AssociationLine Name="_control" Type="Diagrams.IModule" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.875" Y="11.779" />
+        <Point X="13.875" Y="12.154" />
+        <Point X="9.958" Y="12.154" Type="JumpStart" />
+        <Point X="9.792" Y="12.154" Type="JumpEnd" />
+        <Point X="5.458" Y="12.154" Type="JumpStart" />
+        <Point X="5.292" Y="12.154" Type="JumpEnd" />
+        <Point X="5" Y="12.154" />
+        <Point X="5" Y="20" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAABAAEAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Faster.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.ChangeAlg">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\ChangeAlg.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_dialog" />
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Step">
+    <Position X="9.25" Y="9.75" Width="1.5" />
+    <AssociationLine Name="_control" Type="Diagrams.Control.impl.Module.IControlUtil" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.875" Y="11.18" />
+        <Point X="9.875" Y="13.25" />
+        <Point X="6.5" Y="13.25" />
+        <Point X="6.5" Y="17.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Step.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Clear">
+    <Position X="2.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAAQAAAAAAkAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Clear.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_dialog" />
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Create">
+    <Position X="15" Y="9.75" Width="1.5" />
+    <AssociationLine Name="_control" Type="Diagrams.Control.Impl.Module.SandboxControl" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.906" Y="11.016" />
+        <Point X="15.906" Y="13.889" />
+        <Point X="10" Y="13.889" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Create.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Delete">
+    <Position X="16.75" Y="9.75" Width="1.5" />
+    <AssociationLine Name="_control" Type="Diagrams.Control.Impl.Module.SandboxControl" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.5" Y="11.18" />
+        <Point X="17.5" Y="14.214" />
+        <Point X="10" Y="14.214" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Delete.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.DisplayForwardingTable">
+    <Position X="22" Y="9.75" Width="2" />
+    <AssociationLine Name="_control" Type="Diagrams.Control.Impl.Module.SandboxControl" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="23" Y="11.562" />
+        <Point X="23" Y="15.187" />
+        <Point X="10" Y="15.187" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAEAAAAAAAEAAAAAQAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\DisplayForwardingTableTouched.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Floor">
+    <Position X="20.25" Y="9.75" Width="1.5" />
+    <AssociationLine Name="_control" Type="Diagrams.Control.Impl.Module.SandboxControl" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21" Y="11.016" />
+        <Point X="21" Y="14.862" />
+        <Point X="10" Y="14.862" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Floor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Open">
+    <Position X="5.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAkQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Open.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_dialog" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Pause">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAgAAAAEAAQAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Pause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Play">
+    <Position X="18.5" Y="9.75" Width="1.5" />
+    <AssociationLine Name="_control" Type="Diagrams.Control.Impl.Module.SandboxControl" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.25" Y="11.016" />
+        <Point X="19.25" Y="14.538" />
+        <Point X="10" Y="14.538" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Play.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_control" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Record">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAgAAAAEAAQAAAACAAAAgAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Record.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Buttons.ControlButtons.Save">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\ControlButtons\Save.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_save" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Entities.SandboxControlRouter">
+    <Position X="43" Y="19.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Entities\SandboxControlRouter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Entities.ControlLink">
+    <Position X="39.5" Y="11.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Diagrams.Control.impl.Entities.ControlLink.LinkType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Control\impl\Entities\ControlLink.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgACEAEAAAAAAIAAAAAEAACBAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Entities\ControlLink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Entities.ControlNode">
+    <Position X="45" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACEAEAAAAQAIAAAAAEAAADAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Entities\ControlNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Diagrams.Control.impl.Entities.SandboxControlLink">
+    <Position X="39.25" Y="15.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACACUGACAAQQJoABCAA0AQCgAAAAYAAIAgAAAQBE=</HashCode>
+      <FileName>Control\impl\Entities\SandboxControlLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.impl.Entities.SandboxControlNode">
+    <Position X="44.25" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAggAACEAAAAAAAEYAAAAAAAAAAAAAAAAAAEgAAAAAA=</HashCode>
+      <FileName>Control\impl\Entities\SandboxControlNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Diagrams.Control.impl.Buttons.IButton">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAACAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAI=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\IButton.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Diagrams.Control.impl.Buttons.IToggle">
+    <Position X="10.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAYAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\IToggle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Diagrams.Control.impl.Controls.Buttons.IChatButtonSetup">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAgAIAA=</HashCode>
+      <FileName>Control\impl\Controls\Buttons\IChatButtonSetup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Diagrams.Control.impl.Util.ITopologyManager">
+    <Position X="9" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAEABAAAAA=</HashCode>
+      <FileName>Control\impl\Util\ITopologyManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Diagrams.Control.impl.Entities.IControlEntity" Collapsed="true">
+    <Position X="42.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Entities\IControlEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Diagrams.Control.impl.Util.ISequenceManager">
+    <Position X="11.75" Y="23.5" Width="1.75" />
+    <AssociationLine Name="Control" Type="Diagrams.IModule" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.906" Y="23.5" />
+        <Point X="12.906" Y="23.125" />
+        <Point X="12.333" Y="23.125" Type="JumpStart" />
+        <Point X="12.167" Y="23.125" Type="JumpEnd" />
+        <Point X="11.208" Y="23.125" Type="JumpStart" />
+        <Point X="11.042" Y="23.125" Type="JumpEnd" />
+        <Point X="8.427" Y="23.125" Type="JumpStart" />
+        <Point X="8.26" Y="23.125" Type="JumpEnd" />
+        <Point X="7.209" Y="23.125" Type="JumpStart" />
+        <Point X="7.042" Y="23.125" Type="JumpEnd" />
+        <Point X="6.771" Y="23.125" Type="JumpStart" />
+        <Point X="6.605" Y="23.125" Type="JumpEnd" />
+        <Point X="5.021" Y="23.125" Type="JumpStart" />
+        <Point X="4.855" Y="23.125" Type="JumpEnd" />
+        <Point X="4.062" Y="23.125" />
+        <Point X="4.062" Y="22.185" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAEAAAIAAAAAAAAIQAAAAAQAEAAIAAEgAIAAAA=</HashCode>
+      <FileName>Control\impl\Util\ISequenceManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Control" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Diagrams.Control.impl.Module.IControlUtil">
+    <Position X="5.5" Y="17.5" Width="2" />
+    <AssociationLine Name="Record" Type="Diagrams.Control.impl.Util.ISequenceManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.688" Y="22.15" />
+        <Point X="6.688" Y="25.689" />
+        <Point X="8.26" Y="25.689" Type="JumpStart" />
+        <Point X="8.427" Y="25.689" Type="JumpEnd" />
+        <Point X="11.75" Y="25.689" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AMAgAEgIAAAABAEEAAAAIAAAEASAAGAAAAgQAAhIBgA=</HashCode>
+      <FileName>Control\impl\Module\IControlUtil.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Topology" />
+      <Property Name="Record" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Diagrams.Control.impl.Entities.IControlNode">
+    <Position X="43.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Entities\IControlNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Diagrams.IModule">
+    <Position X="3.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAEEAAAAAAAAAAQAAAAAIAAAAAAIAAA=</HashCode>
+      <FileName>Framework\Interfaces\Module\general\IModule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StAndrews.NetworkIsland.Control.IControlLink" Collapsed="true">
+    <Position X="41.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\impl\Entities\IControlLink.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
