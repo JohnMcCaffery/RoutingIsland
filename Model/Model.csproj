@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Model</RootNamespace>
     <AssemblyName>Model</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -70,10 +71,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ninject\ninject-ninject-f39dcf0\src\Ninject\Ninject.csproj">
-      <Project>{ADF369E2-6B9E-4D56-9B82-D273AE41EC2D}</Project>
-      <Name>Ninject</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DependencyInjection\DependencyInjection.csproj">
       <Project>{891C9C4B-51CF-46F7-90ED-D314C5AABB22}</Project>
       <Name>DependencyInjection</Name>
