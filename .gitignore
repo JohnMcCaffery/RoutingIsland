@@ -54,6 +54,7 @@ NuiLib-Mine.*
 ###################
 *~
 *.swp
+*.swo
 _*
 Upgrade*
 TODO.txt
