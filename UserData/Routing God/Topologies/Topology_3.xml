@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Nodes>
+    <Router ni:Name="Router12" ni:X="17.94568" ni:Y="-15.61356" ni:Z="-1.99748" ni:Colour="-23296" xmlns="RoutingProject" />
+    <Router ni:Name="Router11" ni:X="21.28487" ni:Y="-15.64603" ni:Z="-1.99748" ni:Colour="-47872" xmlns="RoutingProject" />
+    <Router ni:Name="Router10" ni:X="17.92074" ni:Y="-11.74651" ni:Z="0.8120174" ni:Colour="-65536" xmlns="RoutingProject" />
+    <Router ni:Name="Router9" ni:X="21.31182" ni:Y="-11.69756" ni:Z="0.8120174" ni:Colour="-8388480" xmlns="RoutingProject" />
+    <Router ni:Name="Router8" ni:X="21.31667" ni:Y="-15.70647" ni:Z="0.8120193" ni:Colour="-7722014" xmlns="RoutingProject" />
+    <Router ni:Name="Router7" ni:X="17.93594" ni:Y="-15.6055" ni:Z="0.8120174" ni:Colour="-16776961" xmlns="RoutingProject" />
+    <Router ni:Name="Router15" ni:X="21.3289" ni:Y="-11.72261" ni:Z="-1.99748" ni:Colour="-16744448" xmlns="RoutingProject" />
+    <Router ni:Name="Router16" ni:X="17.90127" ni:Y="-11.76427" ni:Z="-1.997478" ni:Colour="-16776961" xmlns="RoutingProject" />
+  </ni:Nodes>
+  <ni:Links>
+    <ni:Link ni:From="Router16" ni:To="Router10" />
+    <ni:Link ni:From="Router12" ni:To="Router16" />
+    <ni:Link ni:From="Router7" ni:To="Router8" />
+    <ni:Link ni:From="Router10" ni:To="Router7" />
+    <ni:Link ni:From="Router7" ni:To="Router12" />
+    <ni:Link ni:From="Router8" ni:To="Router11" />
+    <ni:Link ni:From="Router11" ni:To="Router12" />
+    <ni:Link ni:From="Router11" ni:To="Router15" />
+    <ni:Link ni:From="Router15" ni:To="Router9" />
+    <ni:Link ni:From="Router9" ni:To="Router10" />
+    <ni:Link ni:From="Router16" ni:To="Router15" />
+    <ni:Link ni:From="Router9" ni:To="Router8" />
+  </ni:Links>
+</ni:Topology>

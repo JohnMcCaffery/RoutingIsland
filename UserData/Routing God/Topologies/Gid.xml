@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Shift ni:X="0" ni:Y="8" ni:Z="-2"/>
+  <ni:Nodes>
+    <Router ni:Name="A" ni:X="-4" ni:Y="-4" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="B" ni:X="-2" ni:Y="-4" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="C" ni:X="0" ni:Y="-4" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="D" ni:X="2" ni:Y="-4" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="E" ni:X="4" ni:Y="-4" ni:Z="0" xmlns="RoutingProject" />
+
+    <Router ni:Name="J" ni:X="4" ni:Y="-2" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="I" ni:X="2" ni:Y="-2" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="H" ni:X="0" ni:Y="-2" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="G" ni:X="-2" ni:Y="-2" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="F" ni:X="-4" ni:Y="-2" ni:Z="0" xmlns="RoutingProject" />
+
+    <Router ni:Name="K" ni:X="-4" ni:Y="0" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="L" ni:X="-2" ni:Y="0" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="M" ni:X="0" ni:Y="0" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="N" ni:X="2" ni:Y="0" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="O" ni:X="4" ni:Y="0" ni:Z="0" xmlns="RoutingProject" />
+
+    <Router ni:Name="T" ni:X="4" ni:Y="2" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="S" ni:X="2" ni:Y="2" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="R" ni:X="0" ni:Y="2" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="Q" ni:X="-2" ni:Y="2" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="P" ni:X="-4" ni:Y="2" ni:Z="0" xmlns="RoutingProject" />
+
+    <Router ni:Name="U" ni:X="-4" ni:Y="4" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="V" ni:X="-2" ni:Y="4" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="W" ni:X="0" ni:Y="4" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="X" ni:X="2" ni:Y="4" ni:Z="0" xmlns="RoutingProject" />
+    <Router ni:Name="Y" ni:X="4" ni:Y="4" ni:Z="0" xmlns="RoutingProject" />
+    
+    
+    
+    <EP ni:Name="EPA" ni:X="-4" ni:Y="-4" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPB" ni:X="-2" ni:Y="-4" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPC" ni:X="0" ni:Y="-4" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPD" ni:X="2" ni:Y="-4" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPE" ni:X="4" ni:Y="-4" ni:Z="-2" xmlns="RoutingProject" />
+
+    <EP ni:Name="EPJ" ni:X="4" ni:Y="-2" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPI" ni:X="2" ni:Y="-2" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPH" ni:X="0" ni:Y="-2" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPG" ni:X="-2" ni:Y="-2" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPF" ni:X="-4" ni:Y="-2" ni:Z="-2" xmlns="RoutingProject" />
+
+    <EP ni:Name="EPK" ni:X="-4" ni:Y="0" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPL" ni:X="-2" ni:Y="0" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPM" ni:X="0" ni:Y="0" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPN" ni:X="2" ni:Y="0" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPO" ni:X="4" ni:Y="0" ni:Z="-2" xmlns="RoutingProject" />
+
+    <EP ni:Name="EPT" ni:X="4" ni:Y="2" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPS" ni:X="2" ni:Y="2" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPR" ni:X="0" ni:Y="2" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPQ" ni:X="-2" ni:Y="2" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPP" ni:X="-4" ni:Y="2" ni:Z="-2" xmlns="RoutingProject" />
+
+    <EP ni:Name="EPU" ni:X="-4" ni:Y="4" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPV" ni:X="-2" ni:Y="4" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPW" ni:X="0" ni:Y="4" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPX" ni:X="2" ni:Y="4" ni:Z="-2" xmlns="RoutingProject" />
+    <EP ni:Name="EPY" ni:X="4" ni:Y="4" ni:Z="-2" xmlns="RoutingProject" />
+  </ni:Nodes>
+  <ni:Links>
+<!--
+    <ni:Link ni:From="A" ni:To="B" />
+    <ni:Link ni:From="B" ni:To="C" />
+    <ni:Link ni:From="C" ni:To="D" />
+    <ni:Link ni:From="D" ni:To="E" />
+
+    <ni:Link ni:From="F" ni:To="G" />
+    <ni:Link ni:From="G" ni:To="H" />
+    <ni:Link ni:From="H" ni:To="I" />
+    <ni:Link ni:From="I" ni:To="J" />
+
+    <ni:Link ni:From="K" ni:To="L" />
+    <ni:Link ni:From="L" ni:To="M" />
+    <ni:Link ni:From="M" ni:To="N" />
+    <ni:Link ni:From="N" ni:To="O" />
+
+    <ni:Link ni:From="P" ni:To="Q" />
+    <ni:Link ni:From="Q" ni:To="R" />
+    <ni:Link ni:From="R" ni:To="S" />
+    <ni:Link ni:From="S" ni:To="T" />
+
+    <ni:Link ni:From="U" ni:To="V" />
+    <ni:Link ni:From="V" ni:To="W" />
+    <ni:Link ni:From="W" ni:To="X" />
+    <ni:Link ni:From="X" ni:To="Y" />
+
+
+
+
+    <ni:Link ni:From="A" ni:To="F" />
+    <ni:Link ni:From="F" ni:To="K" />
+    <ni:Link ni:From="K" ni:To="P" />
+    <ni:Link ni:From="P" ni:To="U" />
+
+    <ni:Link ni:From="B" ni:To="G" />
+    <ni:Link ni:From="G" ni:To="L" />
+    <ni:Link ni:From="L" ni:To="Q" />
+    <ni:Link ni:From="Q" ni:To="V" />
+
+    <ni:Link ni:From="C" ni:To="H" />
+    <ni:Link ni:From="H" ni:To="M" />
+    <ni:Link ni:From="M" ni:To="R" />
+    <ni:Link ni:From="R" ni:To="W" />
+
+    <ni:Link ni:From="D" ni:To="I" />
+    <ni:Link ni:From="I" ni:To="N" />
+    <ni:Link ni:From="N" ni:To="S" />
+    <ni:Link ni:From="S" ni:To="X" />
+
+    <ni:Link ni:From="E" ni:To="J" />
+    <ni:Link ni:From="J" ni:To="O" />
+    <ni:Link ni:From="O" ni:To="T" />
+    <ni:Link ni:From="T" ni:To="Y" />
+
+
+
+
+
+
+    <ni:Link ni:From="A" ni:To="G" />
+    <ni:Link ni:From="B" ni:To="H" />
+    <ni:Link ni:From="C" ni:To="I" />
+    <ni:Link ni:From="D" ni:To="J" />
+
+    <ni:Link ni:From="B" ni:To="F" />
+    <ni:Link ni:From="C" ni:To="G" />
+    <ni:Link ni:From="D" ni:To="H" />
+    <ni:Link ni:From="E" ni:To="I" />
+
+    
+
+
+    <ni:Link ni:From="F" ni:To="L" />
+    <ni:Link ni:From="G" ni:To="M" />
+    <ni:Link ni:From="H" ni:To="N" />
+    <ni:Link ni:From="I" ni:To="O" />
+
+    <ni:Link ni:From="G" ni:To="K" />
+    <ni:Link ni:From="H" ni:To="L" />
+    <ni:Link ni:From="I" ni:To="M" />
+    <ni:Link ni:From="J" ni:To="N" />
+
+
+
+
+    <ni:Link ni:From="K" ni:To="Q" />
+    <ni:Link ni:From="L" ni:To="R" />
+    <ni:Link ni:From="M" ni:To="S" />
+    <ni:Link ni:From="N" ni:To="T" />
+
+    <ni:Link ni:From="L" ni:To="P" />
+    <ni:Link ni:From="M" ni:To="Q" />
+    <ni:Link ni:From="N" ni:To="R" />
+    <ni:Link ni:From="O" ni:To="S" />
+
+
+
+
+    <ni:Link ni:From="P" ni:To="V" />
+    <ni:Link ni:From="Q" ni:To="W" />
+    <ni:Link ni:From="R" ni:To="X" />
+    <ni:Link ni:From="S" ni:To="Y" />
+
+    <ni:Link ni:From="Q" ni:To="U" />
+    <ni:Link ni:From="R" ni:To="V" />
+    <ni:Link ni:From="S" ni:To="W" />
+    <ni:Link ni:From="T" ni:To="X" />
+-->
+
+
+
+    <ni:Link ni:From="A" ni:To="EPA" />
+    <ni:Link ni:From="B" ni:To="EPB" />
+    <ni:Link ni:From="C" ni:To="EPC" />
+    <ni:Link ni:From="D" ni:To="EPD" />
+    <ni:Link ni:From="E" ni:To="EPE" />
+
+    <ni:Link ni:From="J" ni:To="EPJ" />
+    <ni:Link ni:From="I" ni:To="EPI" />
+    <ni:Link ni:From="H" ni:To="EPH" />
+    <ni:Link ni:From="G" ni:To="EPG" />
+    <ni:Link ni:From="F" ni:To="EPF" />
+
+    <ni:Link ni:From="K" ni:To="EPK" />
+    <ni:Link ni:From="L" ni:To="EPL" />
+    <ni:Link ni:From="M" ni:To="EPM" />
+    <ni:Link ni:From="N" ni:To="EPN" />
+    <ni:Link ni:From="O" ni:To="EPO" />
+
+    <ni:Link ni:From="T" ni:To="EPT" />
+    <ni:Link ni:From="S" ni:To="EPS" />
+    <ni:Link ni:From="R" ni:To="EPR" />
+    <ni:Link ni:From="Q" ni:To="EPQ" />
+    <ni:Link ni:From="P" ni:To="EPP" />
+
+    <ni:Link ni:From="U" ni:To="EPU" />
+    <ni:Link ni:From="V" ni:To="EPV" />
+    <ni:Link ni:From="W" ni:To="EPW" />
+    <ni:Link ni:From="X" ni:To="EPX" />
+    <ni:Link ni:From="Y" ni:To="EPY" />
+  </ni:Links>
+</ni:Topology>

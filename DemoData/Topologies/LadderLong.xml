@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+	<ni:Shift ni:X="-9" ni:Y="-3" ni:Z="0" />
+	<ni:Nodes>
+		<EP ni:Name="Start" ni:X="0" ni:Y="0" ni:Z="0" Color="Red" />
+		<EP ni:Name="End" ni:X="16" ni:Y="0" ni:Z="0" Color="Violet" />
+
+		<Router ni:Name="Join" ni:X="2" ni:Y="0" ni:Z="0" Color="Orange" />
+		<Router ni:Name="L1" ni:X="5" ni:Y="0" ni:Z="0" Color="Yellow" />
+		<Router ni:Name="L2" ni:X="8" ni:Y="0" ni:Z="0" Color="Green" />
+		<Router ni:Name="L3" ni:X="11" ni:Y="0" ni:Z="0" Color="Blue" />
+		<Router ni:Name="L4" ni:X="14" ni:Y="0" ni:Z="0" Color="Indigo" />
+
+		<Router ni:Name="U1" ni:X="5" ni:Y=".5" ni:Z="0" Color="Yellow" />
+		<Router ni:Name="U2" ni:X="8" ni:Y="1" ni:Z="0" Color="Green" />
+		<Router ni:Name="U3" ni:X="11" ni:Y="1.5" ni:Z="0" Color="Blue" />
+		<Router ni:Name="U4" ni:X="14" ni:Y="2" ni:Z="0" Color="Indigo" />
+	</ni:Nodes>
+	<ni:Links>
+		<Link ni:From="Start" ni:To="Join" />
+
+		<Link ni:From="Join" ni:To="L1" />
+		<Link ni:From="L1" ni:To="L2" />
+		<Link ni:From="L2" ni:To="L3" />
+		<Link ni:From="L3" ni:To="L4" />
+		<Link ni:From="L4" ni:To="End" />
+
+		<Link ni:From="Join" ni:To="U1" />
+		<Link ni:From="U1" ni:To="U2" />
+		<Link ni:From="U2" ni:To="U3" />
+		<Link ni:From="U3" ni:To="U4" />
+
+		<Link ni:From="L1" ni:To="U1" />
+		<Link ni:From="L2" ni:To="U2" />
+		<Link ni:From="L3" ni:To="U3" />
+		<Link ni:From="L4" ni:To="U4" />
+	</ni:Links>
+</ni:Topology>

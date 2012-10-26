@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Nodes>
+    <EP ni:Name="EP18" ni:X="0.3338318" ni:Y="-9.901978" ni:Z="-1.997478" ni:Colour="-47872" xmlns="RoutingProject" />
+    <EP ni:Name="EP17" ni:X="4.192314" ni:Y="-8.795654" ni:Z="-1.997478" ni:Colour="-65536" xmlns="RoutingProject" />
+    <EP ni:Name="EP16" ni:X="4.538239" ni:Y="0.1981201" ni:Z="-1.99748" ni:Colour="-8388480" xmlns="RoutingProject" />
+    <EP ni:Name="EP15" ni:X="0.2208939" ni:Y="1.520889" ni:Z="-1.997478" ni:Colour="-7722014" xmlns="RoutingProject" />
+    <Router ni:Name="Router38" ni:X="2.752029" ni:Y="-4.282578" ni:Z="-1.99748" ni:Colour="-16776961" xmlns="RoutingProject" />
+    <Router ni:Name="Router37" ni:X="4.609184" ni:Y="-5.903564" ni:Z="-1.997478" ni:Colour="-16744448" xmlns="RoutingProject" />
+    <Router ni:Name="Router36" ni:X="4.744232" ni:Y="-2.600815" ni:Z="-1.997478" ni:Colour="-6632142" xmlns="RoutingProject" />
+    <Router ni:Name="Router35" ni:X="0.6235886" ni:Y="-2.30246" ni:Z="-1.99748" ni:Colour="-256" xmlns="RoutingProject" />
+    <Router ni:Name="Router34" ni:X="1.233307" ni:Y="-6.109695" ni:Z="-1.997478" ni:Colour="-23296" xmlns="RoutingProject" />
+  </ni:Nodes>
+  <ni:Links>
+    <ni:Link ni:From="Router34" ni:To="Router37" ni:Weight="0.6907233" />
+    <ni:Link ni:From="EP17" ni:To="Router37" ni:Weight="0.8815062" />
+    <ni:Link ni:From="Router36" ni:To="Router38" ni:Weight="0.6164482" />
+    <ni:Link ni:From="EP18" ni:To="Router34" ni:Weight="0.7465245" />
+    <ni:Link ni:From="Router36" ni:To="Router35" ni:Weight="0.7810635" />
+    <ni:Link ni:From="Router36" ni:To="EP16" ni:Weight="0.5826946" />
+    <ni:Link ni:From="Router38" ni:To="Router37" ni:Weight="0.7614161" />
+    <ni:Link ni:From="Router35" ni:To="EP15" ni:Weight="0.4823389" />
+    <ni:Link ni:From="Router38" ni:To="Router34" ni:Weight="0.04344822" />
+    <ni:Link ni:From="Router35" ni:To="Router38" ni:Weight="0.8549067" />
+  </ni:Links>
+</ni:Topology>

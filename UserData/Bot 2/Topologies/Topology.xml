@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Nodes>
+    <Router ni:Name="Router24" ni:X="37.29182" ni:Y="26.99541" ni:Z="10.31225" ni:Colour="-256" xmlns="RoutingProject" />
+  </ni:Nodes>
+</ni:Topology>

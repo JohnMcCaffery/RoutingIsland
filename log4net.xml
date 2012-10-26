@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<log4net>
+  <!-- A1 is set to be a ConsoleAppender -->
+  <appender name="A1" type="log4net.Appender.ConsoleAppender">
+
+    <!-- A1 uses PatternLayout -->
+    <layout type="log4net.Layout.PatternLayout">
+      <!-- Print the date in ISO 8601 format -->
+      <conversionPattern value="%date{HH:mm:ss} - %-200message %logger%newline" />
+    </layout>
+  </appender>
+
+  <!-- A2 is set to be a MemoryAppender -->
+  <!-- <appender name="A2" type="log4net.Appender.MemoryAppender" /> -->
+
+  <!-- Set root logger level to DEBUG -->
+  <root>
+    <level value="WARN" />
+    <appender-ref ref="A1" />
+    <!--<appender-ref ref="A2" />-->
+  </root>
+
+  <!-- Print only messages of level WARN or above in the package Com.Foo -->
+  <logger name="jm726.lib.wrapper.Proxy">
+    <level value="WARN" />
+  </logger>
+  <logger name="jm726.lib.wrapper.Wrapper">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.ControlTestingExtension">
+    <level value="WARN" />
+  </logger>
+  <logger name="diagrams.algorithms.dv">
+    <level value="WARN" />
+  </logger>
+  <logger name="diagrams.algorithms.dijkstra">
+    <level value="WARN" />
+  </logger>
+
+  <logger name="Diagrams.Model">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.View">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.Control">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.Control.Impl.Module.Control">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.Control.Impl.Module.SandboxControl">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.Control.Impl.Module.AdvancedControl">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.Control.Impl.Module.SequenceControl">
+    <level value="WARN" />
+  </logger>
+
+  <logger name="Diagrams.Control.impl.Entities">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.MNode">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.VPacket">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.MRMPrim">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.MRMPrimFactory">
+    <level value="WARN" />
+  </logger>
+  <logger name="Diagrams.View.Packet">
+    <level value="WARN" />
+  </logger>
+  <logger name="core.view.impl.entities.VNode">
+    <level value="WARN" />
+  </logger>
+  <logger name="core.view.impl.entities.VNode">
+    <level value="WARN" />
+  </logger>
+</log4net>

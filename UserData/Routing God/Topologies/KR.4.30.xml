@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+	<ni:Shift ni:X="0" ni:Y="0" ni:Z="1" />
+	<ni:Nodes>
+		<Router ni:Name="X" ni:X="-4.862087" ni:Y="-4.01088" ni:Z="-1.635231" ni:Colour="-47872" xmlns="RoutingProject" />
+		<Router ni:Name="Y" ni:X="-0.06469154" ni:Y="3.487228" ni:Z="-1.635231" ni:Colour="-65536" xmlns="RoutingProject" />
+		<Router ni:Name="Z" ni:X="6.033361" ni:Y="-4.649933" ni:Z="-1.635235" ni:Colour="-23296" xmlns="RoutingProject" />
+
+		<EP ni:Name="EP-X" ni:X="-5.862087" ni:Y="-4.01088" ni:Z="-1.635231" ni:Colour="-47872" xmlns="RoutingProject" />
+		<EP ni:Name="EP-Y" ni:X="-0.06469154" ni:Y="4.487228" ni:Z="-1.635231" ni:Colour="-65536" xmlns="RoutingProject" />
+		<EP ni:Name="EP-Z" ni:X="7.033361" ni:Y="-4.649933" ni:Z="-1.635235" ni:Colour="-23296" xmlns="RoutingProject" />
+	</ni:Nodes>
+	<ni:Links>
+		<!--
+		<Link ni:From="EP-X" ni:To="X" ni:Weight="1" />
+		<Link ni:From="EP-Y" ni:To="Y" ni:Weight="1" />
+		<Link ni:From="EP-Z" ni:To="Z" ni:Weight="1" />
+		-->
+	</ni:Links>
+</ni:Topology>

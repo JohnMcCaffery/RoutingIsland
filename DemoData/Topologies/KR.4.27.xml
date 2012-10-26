@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+	<ni:Shift ni:X="0" ni:Y="2" ni:Z="1" />
+	<ni:Rotation ni:X="0" ni:Y="0" ni:Z="3" ni:Angle="0" />
+  <ni:Nodes>
+    <EP ni:Name="EP1" ni:X="-7" ni:Y="0" ni:Z="0" ni:Colour="-65536" xmlns="RoutingProject" />
+    <EP ni:Name="EP2" ni:X="7" ni:Y="0" ni:Z="0" ni:Colour="-36744448" xmlns="RoutingProject" />
+    <Router ni:Name="Router1" ni:X="-5" ni:Y="0" ni:Z="0" ni:Colour="-47872" xmlns="RoutingProject" />
+    <Router ni:Name="Router2" ni:X="-3" ni:Y="-2" ni:Z="0" ni:Colour="-23296" xmlns="RoutingProject" />
+    <Router ni:Name="Router3" ni:X="3" ni:Y="-2" ni:Z="0" ni:Colour="-256" xmlns="RoutingProject" />
+    <Router ni:Name="Router4" ni:X="5" ni:Y="0" ni:Z="0" ni:Colour="-6632142" xmlns="RoutingProject" />
+    <Router ni:Name="Router5" ni:X="3" ni:Y="2" ni:Z="0" ni:Colour="-36776961" xmlns="RoutingProject" />
+    <Router ni:Name="Router6" ni:X="-3" ni:Y="2" ni:Z="0" ni:Colour="-7722014" xmlns="RoutingProject" />
+  </ni:Nodes>
+  <ni:Links>
+    <ni:Link ni:From="EP1" ni:To="Router1" ni:Weight="1"/>
+    <ni:Link ni:From="Router4" ni:To="EP2" ni:Weight="1" />
+    <ni:Link ni:From="Router1" ni:To="Router2" ni:Weight=".2" />
+    <ni:Link ni:From="Router2" ni:To="Router3" ni:Weight=".3" />
+    <ni:Link ni:From="Router3" ni:To="Router4" ni:Weight=".5" />
+    <ni:Link ni:From="Router4" ni:To="Router5" ni:Weight=".2" />
+    <ni:Link ni:From="Router5" ni:To="Router6" ni:Weight=".1" />
+    <ni:Link ni:From="Router6" ni:To="Router1" ni:Weight=".3" />
+    <ni:Link ni:From="Router1" ni:To="Router3" ni:Weight=".5" />
+    <ni:Link ni:From="Router3" ni:To="Router6" ni:Weight=".3" />
+    <ni:Link ni:From="Router6" ni:To="Router2" ni:Weight=".2" />
+    <ni:Link ni:From="Router3" ni:To="Router5" ni:weight=".1" />
+  </ni:Links>
+</ni:Topology>

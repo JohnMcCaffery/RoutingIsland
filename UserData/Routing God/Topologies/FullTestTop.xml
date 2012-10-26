@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Shift ni:X="1" ni:Y="4" ni:Z="-2" />
+  <ni:Rotation ni:X="0" ni:Y="0" ni:Z="1" Angle="90" />
+  <ni:Nodes>
+    <ni:Router ni:Name="A" ni:X="-5" ni:Y="9" ni:Z=".5" ni:Colour="Black" />
+    <ni:Router ni:Name="B" ni:X="-5" ni:Y="-5" ni:Z=".5" ni:Colour="Red" />
+    <ni:Router ni:Name="C" ni:X="-12" ni:Y="2" ni:Z=".5" ni:Colour="Blue" />
+    <ni:Router ni:Name="D" ni:X="2" ni:Y="2" ni:Z=".5" ni:Colour="Green" />
+    <ni:Router ni:Name="E" ni:X="-5" ni:Y="-7" ni:Z=".5" ni:Colour="Orange" />
+    <ni:EP ni:Name="EPA" ni:X="-5" ni:Y="10" ni:Z=".5" ni:Colour="Black" />
+    <ni:EP ni:Name="EPB" ni:X="-6" ni:Y="-6" ni:Z=".5" ni:Colour="Red" />
+    <ni:EP ni:Name="EPC" ni:X="-13" ni:Y="2" ni:Z=".5" ni:Colour="Blue" />
+    <ni:EP ni:Name="EPD" ni:X="3" ni:Y="2" ni:Z=".5" ni:Colour="Green" />
+    <ni:EP ni:Name="EPE" ni:X="-5" ni:Y="-8" ni:Z=".5" ni:Colour="Orange" />
+  </ni:Nodes>
+  <ni:Links>
+    <ni:Link ni:From="EPA" ni:To="A" />
+    <ni:Link ni:From="EPB" ni:To="B" />
+    <ni:Link ni:From="EPC" ni:To="C" />
+    <ni:Link ni:From="EPD" ni:To="D" />
+    <ni:Link ni:From="EPE" ni:To="E" />
+  </ni:Links>
+</ni:Topology>

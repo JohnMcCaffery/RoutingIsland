@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events Topology="FullTestTop">
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-842352673" Time="0">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.3</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-842352673" Time="1534.0878">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="7297607" Time="377.0215">
+    <Parameters>
+      <from IsID="True">
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">A</string>
+      </from>
+      <to IsID="True">
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">B</string>
+      </to>
+      <parameters>
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="common.framework.impl.util.Parameters" z:Assembly="JM726.Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic" z:Id="2" z:Size="3">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="3">Visualise</d2p1:key>
+              <d2p1:value z:Id="4" z:Type="System.Boolean" z:Assembly="0">true</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="5">OwnerID</d2p1:key>
+              <d2p1:value z:Id="6" z:Type="OpenMetaverse.UUID" z:Assembly="OpenMetaverseTypes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <Guid xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">cdd2a63b-50b2-463c-889b-db0263b13652</Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="7">Creator</d2p1:key>
+              <d2p1:value z:Id="8" z:Type="System.String" z:Assembly="0">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+      </parameters>
+      <weight>
+        <float z:Type="System.Single" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <boolean z:Type="System.Boolean" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-842352673" Time="1383.0791">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.3</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-842352673" Time="865.0495">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="7297607" Time="112.0064">
+    <Parameters>
+      <from IsID="True">
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">A</string>
+      </from>
+      <to IsID="True">
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">C</string>
+      </to>
+      <parameters>
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="common.framework.impl.util.Parameters" z:Assembly="JM726.Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic" z:Id="2" z:Size="3">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="3">Visualise</d2p1:key>
+              <d2p1:value z:Id="4" z:Type="System.Boolean" z:Assembly="0">true</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="5">OwnerID</d2p1:key>
+              <d2p1:value z:Id="6" z:Type="OpenMetaverse.UUID" z:Assembly="OpenMetaverseTypes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <Guid xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">cdd2a63b-50b2-463c-889b-db0263b13652</Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="7">Creator</d2p1:key>
+              <d2p1:value z:Id="8" z:Type="System.String" z:Assembly="0">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+      </parameters>
+      <weight>
+        <float z:Type="System.Single" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <boolean z:Type="System.Boolean" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-842352674" Time="1785.1021">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.3</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-842352674" Time="907.0519">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="7297607" Time="108.0062">
+    <Parameters>
+      <from IsID="True">
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">B</string>
+      </from>
+      <to IsID="True">
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">C</string>
+      </to>
+      <parameters>
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="common.framework.impl.util.Parameters" z:Assembly="JM726.Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic" z:Id="2" z:Size="3">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="3">Visualise</d2p1:key>
+              <d2p1:value z:Id="4" z:Type="System.Boolean" z:Assembly="0">true</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="5">OwnerID</d2p1:key>
+              <d2p1:value z:Id="6" z:Type="OpenMetaverse.UUID" z:Assembly="OpenMetaverseTypes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <Guid xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">cdd2a63b-50b2-463c-889b-db0263b13652</Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="7">Creator</d2p1:key>
+              <d2p1:value z:Id="8" z:Type="System.String" z:Assembly="0">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+      </parameters>
+      <weight>
+        <float z:Type="System.Single" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <boolean z:Type="System.Boolean" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-842352673" Time="1484.0849">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.3</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-842352673" Time="1305.0746">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="7297607" Time="104.006">
+    <Parameters>
+      <from IsID="True">
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">A</string>
+      </from>
+      <to IsID="True">
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">D</string>
+      </to>
+      <parameters>
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="common.framework.impl.util.Parameters" z:Assembly="JM726.Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic" z:Id="2" z:Size="3">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="3">Visualise</d2p1:key>
+              <d2p1:value z:Id="4" z:Type="System.Boolean" z:Assembly="0">true</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="5">OwnerID</d2p1:key>
+              <d2p1:value z:Id="6" z:Type="OpenMetaverse.UUID" z:Assembly="OpenMetaverseTypes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <Guid xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">cdd2a63b-50b2-463c-889b-db0263b13652</Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="7">Creator</d2p1:key>
+              <d2p1:value z:Id="8" z:Type="System.String" z:Assembly="0">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+      </parameters>
+      <weight>
+        <float z:Type="System.Single" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <boolean z:Type="System.Boolean" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-842352674" Time="2001.1144">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.3</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-842352674" Time="1061.0607">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="7297607" Time="107.0061">
+    <Parameters>
+      <from IsID="True">
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">B</string>
+      </from>
+      <to IsID="True">
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">D</string>
+      </to>
+      <parameters>
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="common.framework.impl.util.Parameters" z:Assembly="JM726.Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic" z:Id="2" z:Size="3">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="3">Visualise</d2p1:key>
+              <d2p1:value z:Id="4" z:Type="System.Boolean" z:Assembly="0">true</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="5">OwnerID</d2p1:key>
+              <d2p1:value z:Id="6" z:Type="OpenMetaverse.UUID" z:Assembly="OpenMetaverseTypes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <Guid xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">cdd2a63b-50b2-463c-889b-db0263b13652</Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key z:Id="7">Creator</d2p1:key>
+              <d2p1:value z:Id="8" z:Type="System.String" z:Assembly="0">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+      </parameters>
+      <weight>
+        <float z:Type="System.Single" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <boolean z:Type="System.Boolean" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="56638419" Time="7926.4534">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.3</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILink" Name="DistanceWeight" Hash="56638419" Time="1241.071">
+    <Parameters>
+      <value>
+        <boolean z:Type="System.Boolean" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">false</boolean>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="common.framework.interfaces.entities.ILogicEntity" Name="Say" Hash="56638419" Time="5.0003">
+    <Parameters>
+      <msg>
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Vis: True</string>
+      </msg>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILink" Name="Weight" Hash="56638419" Time="63.0036">
+    <Parameters>
+      <value>
+        <float z:Type="System.Single" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.949896157</float>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="common.framework.interfaces.entities.ILogicEntity" Name="Say" Hash="56638419" Time="1">
+    <Parameters>
+      <msg>
+        <string z:Type="System.String" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Set weight to 0.9498962</string>
+      </msg>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="56638419" Time="4.0002">
+    <Parameters>
+      <value>
+        <double z:Type="System.Double" z:Assembly="0" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+</Events>

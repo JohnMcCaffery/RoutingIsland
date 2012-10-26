@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+	<ni:Shift ni:X="9" ni:Y="-7" ni:Z="1" />
+	<ni:Rotation ni:X="0" ni:Y="0" ni:Z="1" ni:Angle="135" />
+	<ni:Nodes>
+		<EP ni:Name="Start" ni:X="-1" ni:Y="0" ni:Z="0" ni:Colour="Red" />
+
+		<Router ni:Name="L1" ni:X="0" ni:Y="0" ni:Z="0" ni:Colour="Red" />
+		<Router ni:Name="L2" ni:X="4" ni:Y="0" ni:Z="0" ni:Colour="Orange" />
+		<Router ni:Name="L3" ni:X="8" ni:Y="0" ni:Z="0" ni:Colour="Yellow" />
+		<Router ni:Name="L4" ni:X="12" ni:Y="0" ni:Z="0" ni:Colour="Green" />
+		<Router ni:Name="L5" ni:X="16" ni:Y="0" ni:Z="0" ni:Colour="Blue" />
+		<Router ni:Name="L6" ni:X="20" ni:Y="0" ni:Z="0" ni:Colour="Indigo" />
+
+		<Router ni:Name="U1" ni:X="15" ni:Y="4" ni:Z="0" ni:Colour="Red" />
+		<Router ni:Name="U2" ni:X="16" ni:Y="4" ni:Z="0" ni:Colour="Orange" />
+		<Router ni:Name="U3" ni:X="17" ni:Y="4" ni:Z="0" ni:Colour="Yellow" />
+		<Router ni:Name="U4" ni:X="18" ni:Y="4" ni:Z="0" ni:Colour="Green" />
+		<Router ni:Name="U5" ni:X="19" ni:Y="4" ni:Z="0" ni:Colour="Blue" />
+		<Router ni:Name="U6" ni:X="20" ni:Y="4" ni:Z="0" ni:Colour="Indigo" />
+
+		<Router ni:Name="End" ni:X="24" ni:Y="0" ni:Z="0" ni:Colour="Violet" />
+		<EP ni:Name="EndEP" ni:X="25" ni:Y="0" ni:Z="0" ni:Colour="Violet" />
+	</ni:Nodes>
+	<ni:Links>
+		<Link ni:From="Start" ni:To="L1" />
+		<Link ni:From="End" ni:To="EndEP" />
+		
+		<Link ni:From="L1" ni:To="L2" />
+		<Link ni:From="L2" ni:To="L3" />
+		<Link ni:From="L3" ni:To="L4" />
+		<Link ni:From="L4" ni:To="L5" />
+		<Link ni:From="L5" ni:To="L6" />
+		<Link ni:From="L6" ni:To="End" />
+
+		<Link ni:From="U1" ni:To="U2" />
+		<Link ni:From="U2" ni:To="U3" />
+		<Link ni:From="U3" ni:To="U4" />
+		<Link ni:From="U4" ni:To="U5" />
+		<Link ni:From="U5" ni:To="U6" />
+		<Link ni:From="U6" ni:To="End" />
+
+		<Link ni:From="StartEP" ni:To="L1" />
+		<Link ni:From="L1" ni:To="U1" />
+		<Link ni:From="L2" ni:To="U2" />
+		<Link ni:From="L3" ni:To="U3" />
+		<Link ni:From="L4" ni:To="U4" />
+		<Link ni:From="L5" ni:To="U5" />
+		<Link ni:From="L6" ni:To="U6" />
+	</ni:Links>
+</ni:Topology>

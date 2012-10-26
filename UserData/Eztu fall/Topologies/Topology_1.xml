@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Nodes>
+    <Router ni:Name="Router0" ni:X="-6.690567" ni:Y="-11.5309" ni:Z="-0.773159" ni:Colour="-65536" xmlns="RoutingProject" />
+    <Router ni:Name="Router1" ni:X="-8.162094" ni:Y="-10.02081" ni:Z="-0.773159" ni:Colour="-23296" xmlns="RoutingProject" />
+    <Router ni:Name="Router2" ni:X="-9.483032" ni:Y="-10.8576" ni:Z="-0.773159" ni:Colour="-256" xmlns="RoutingProject" />
+    <Router ni:Name="Router3" ni:X="-6.585724" ni:Y="-5.350845" ni:Z="-0.773159" ni:Colour="-16744448" xmlns="RoutingProject" />
+    <Router ni:Name="Router4" ni:X="-3.005524" ni:Y="-6.933273" ni:Z="-0.773159" ni:Colour="-16776961" xmlns="RoutingProject" />
+    <Router ni:Name="Router5" ni:X="-2.788162" ni:Y="-10.71748" ni:Z="-0.773159" ni:Colour="-11861886" xmlns="RoutingProject" />
+    <Router ni:Name="Router6" ni:X="-10.72632" ni:Y="-4.093994" ni:Z="-0.773159" ni:Colour="-1146130" xmlns="RoutingProject" />
+    <Router ni:Name="Router7" ni:X="-10.89984" ni:Y="-10.00978" ni:Z="-0.773159" ni:Colour="-16777216" xmlns="RoutingProject" />
+    <Router ni:Name="Router8" ni:X="0.7462158" ni:Y="-6.839508" ni:Z="-0.773159" ni:Colour="-1146130" xmlns="RoutingProject" />
+    <EP ni:Name="EP0" ni:X="0.6092834" ni:Y="-10.35045" ni:Z="-0.773159" ni:Colour="-65536" xmlns="RoutingProject" />
+    <EP ni:Name="EP1" ni:X="-11.92268" ni:Y="-0.8929443" ni:Z="-0.773159" ni:Colour="-23296" xmlns="RoutingProject" />
+    <Router ni:Name="Router9" ni:X="-1.066315" ni:Y="-9.863571" ni:Z="-0.773159" ni:Colour="-11861886" xmlns="RoutingProject" />
+    <Router ni:Name="Router10" ni:X="-5.988205" ni:Y="-6.57634" ni:Z="-0.773159" ni:Colour="-23296" xmlns="RoutingProject" />
+    <Router ni:Name="Router11" ni:X="-4.739182" ni:Y="-11.138" ni:Z="-0.773159" ni:Colour="-65536" xmlns="RoutingProject" />
+    <EP ni:Name="EP2" ni:X="-3.536758" ni:Y="-1.146652" ni:Z="-0.773159" ni:Colour="-256" xmlns="RoutingProject" />
+    <Router ni:Name="Router13" ni:X="-0.04428101" ni:Y="-3.49707" ni:Z="-0.7731895" ni:Colour="-256" xmlns="RoutingProject" />
+  </ni:Nodes>
+  <ni:Links>
+    <ni:Link ni:From="Router2" ni:To="Router7" />
+    <ni:Link ni:From="Router2" ni:To="Router1" />
+    <ni:Link ni:From="Router1" ni:To="Router3" />
+    <ni:Link ni:From="Router0" ni:To="Router3" />
+    <ni:Link ni:From="Router4" ni:To="Router3" />
+    <ni:Link ni:From="Router4" ni:To="Router0" />
+    <ni:Link ni:From="Router10" ni:To="Router11" />
+    <ni:Link ni:From="Router2" ni:To="Router6" />
+    <ni:Link ni:From="Router8" ni:To="Router5" />
+    <ni:Link ni:From="Router6" ni:To="EP1" />
+    <ni:Link ni:From="EP0" ni:To="Router9" />
+    <ni:Link ni:From="Router9" ni:To="Router8" />
+    <ni:Link ni:From="Router9" ni:To="Router5" />
+    <ni:Link ni:From="EP2" ni:To="Router3" />
+    <ni:Link ni:From="Router11" ni:To="Router0" />
+    <ni:Link ni:From="Router10" ni:To="Router8" />
+    <ni:Link ni:From="Router1" ni:To="Router6" />
+  </ni:Links>
+</ni:Topology>

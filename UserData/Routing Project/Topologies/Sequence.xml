@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Nodes>
+    <Node ni:Name="Router0" ni:X="-1.920563" ni:Y="1.384247" ni:Z="-6.297178" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="Router1" ni:X="-8.785614" ni:Y="1.050491" ni:Z="-6.297176" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="Router2" ni:X="-2.126587" ni:Y="-2.493195" ni:Z="-6.297176" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="Router3" ni:X="-6.558273" ni:Y="3.84346" ni:Z="-6.297178" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="EP0" ni:X="0.9803162" ni:Y="2.126175" ni:Z="-6.297178" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="Router0" ni:X="-1.920563" ni:Y="1.384247" ni:Z="-6.297178" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="Router1" ni:X="-8.785614" ni:Y="1.050491" ni:Z="-6.297176" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="Router2" ni:X="-2.126587" ni:Y="-2.493195" ni:Z="-6.297176" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="Router3" ni:X="-6.558273" ni:Y="3.84346" ni:Z="-6.297178" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="EP0" ni:X="0.9803162" ni:Y="2.126175" ni:Z="-6.297178" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="A" ni:X="-5" ni:Y="4" ni:Z="-3" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="B" ni:X="-5" ni:Y="0" ni:Z="-3" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="C" ni:X="-7" ni:Y="2" ni:Z="-3" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="D" ni:X="-3" ni:Y="2" ni:Z="-3" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="E" ni:X="-5" ni:Y="-2" ni:Z="-3" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="EPA" ni:X="-5" ni:Y="5" ni:Z="-3" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="EPB" ni:X="-6" ni:Y="-1" ni:Z="-3" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="EPC" ni:X="-8" ni:Y="2" ni:Z="-3" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="EPD" ni:X="-2" ni:Y="2" ni:Z="-3" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="EPE" ni:X="-5" ni:Y="-3" ni:Z="-3" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="EP1" ni:X="0.6658783" ni:Y="4.397461" ni:Z="-6.297178" ni:Colour="-23296" xmlns="RoutingProject" />
+    <Node ni:Name="EP2" ni:X="-4.303528" ni:Y="6.06501" ni:Z="-6.297176" ni:Colour="-256" xmlns="RoutingProject" />
+    <Node ni:Name="EP3" ni:X="-3.207497" ni:Y="0.7557449" ni:Z="-6.297178" ni:Colour="-16744448" xmlns="RoutingProject" />
+    <Node ni:Name="Router4" ni:X="-2.349152" ni:Y="3.919243" ni:Z="-6.297178" ni:Colour="-16776961" xmlns="RoutingProject" />
+  </ni:Nodes>
+  <ni:Links>
+    <ni:Link ni:From="Router4" ni:To="EP1" />
+    <ni:Link ni:From="Router4" ni:To="EP3" />
+    <ni:Link ni:From="Router4" ni:To="EP2" />
+  </ni:Links>
+</ni:Topology>

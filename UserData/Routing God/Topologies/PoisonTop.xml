@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+	<ni:Shift ni:X="2" ni:Y="1" ni:Z="0" />
+  <ni:Nodes>
+    <EP ni:Name="EP1" ni:X="-4" ni:Y="-5" ni:Z="1" ni:Colour="-65536" xmlns="RoutingProject" />
+    <Router ni:Name="Router1" ni:X="-2" ni:Y="-5" ni:Z="1" ni:Colour="-65536" xmlns="RoutingProject" />
+    <Router ni:Name="Router2" ni:X="0" ni:Y="-5" ni:Z="1" ni:Colour="-23296" xmlns="RoutingProject" />
+    <Router ni:Name="Router3" ni:X="2" ni:Y="-5" ni:Z="1" ni:Colour="-256" xmlns="RoutingProject" />
+    <EP ni:Name="EP2" ni:X="4" ni:Y="-5" ni:Z="1" ni:Colour="Green" xmlns="RoutingProject" />
+  </ni:Nodes>
+</ni:Topology>

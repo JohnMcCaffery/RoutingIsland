@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Nodes>
+    <Router ni:Name="A" ni:X="2.674475" ni:Y="2.788651" ni:Z="-1.357525" ni:Colour="-16744448" xmlns="RoutingProject" />
+    <Router ni:Name="B" ni:X="-2.851261" ni:Y="2.649506" ni:Z="-1.357525" ni:Colour="-256" xmlns="RoutingProject" />
+    <Router ni:Name="C" ni:X="2.63294" ni:Y="-2.687958" ni:Z="-1.357525" ni:Colour="-16776961" xmlns="RoutingProject" />
+    <Router ni:Name="D" ni:X="-2.710156" ni:Y="-2.508057" ni:Z="-1.357525" ni:Colour="-11861886" xmlns="RoutingProject" />
+    <EP ni:Name="EP B" ni:X="-8.143955" ni:Y="8.301376" ni:Z="-1.357525" ni:Colour="-1146130" xmlns="RoutingProject" />
+    <EP ni:Name="EP A" ni:X="7.839693" ni:Y="8.116043" ni:Z="-1.635231" ni:Colour="-11861886" xmlns="RoutingProject" />
+    <EP ni:Name="EP C" ni:X="7.936684" ni:Y="-7.995468" ni:Z="-1.357521" ni:Colour="-23296" xmlns="RoutingProject" />
+    <EP ni:Name="EP D" ni:X="-8.194578" ni:Y="-7.980255" ni:Z="-1.357525" ni:Colour="-65536" xmlns="RoutingProject" />
+  </ni:Nodes>
+  <ni:Links>
+    <ni:Link ni:From="A" ni:To="B" />
+    <ni:Link ni:From="B" ni:To="D" />
+    <ni:Link ni:From="C" ni:To="A" />
+    <ni:Link ni:From="D" ni:To="C" />
+    <ni:Link ni:From="A" ni:To="EP A" />
+    <ni:Link ni:From="B" ni:To="EP B" />
+    <ni:Link ni:From="C" ni:To="EP C" />
+    <ni:Link ni:From="D" ni:To="EP D" />
+  </ni:Links>
+</ni:Topology>

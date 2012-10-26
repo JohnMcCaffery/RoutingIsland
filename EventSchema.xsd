@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="RoutingProject"
+    attributeFormDefault="qualified"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:ni="RoutingProject"
+>
+  <xs:complexType name="ScaleInfo">
+    <xs:attribute name="X" type="xs:float" use="required" />
+    <xs:attribute name="Y" type="xs:float" use="required" />
+    <xs:attribute name="Z" type="xs:float" use="required" />
+  </xs:complexType>
+  
+  <xs:complexType name="NodeInfo">
+    <xs:attribute name="Name" type="xs:string" use="required" />
+    <xs:attribute name="X" type="xs:float" use="required" />
+    <xs:attribute name="Y" type="xs:float" use="required" />
+    <xs:attribute name="Z" type="xs:float" use="required" />
+    <xs:attribute name="Colour" type="xs:string" use="optional" />
+  </xs:complexType>
+
+  <xs:complexType name="LinkInfo">
+    <xs:attribute name="From" type="xs:string" use="required"  />
+    <xs:attribute name="To" type="xs:string" use="required" />
+    <xs:attribute name="Weight" type="xs:float" use="optional" />
+  </xs:complexType>
+
+  <xs:complexType name="NodesList" xmlns="RoutingProject">
+    <xs:sequence>
+      <xs:element name="Node" minOccurs="0" maxOccurs="unbounded" type="NodeInfo" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RoutersList" xmlns="RoutingProject">
+    <xs:sequence>
+      <xs:element name="Router" minOccurs="0" maxOccurs="unbounded" type="NodeInfo" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="EPsList" xmlns="RoutingProject">
+    <xs:sequence>
+      <xs:element name="EP" minOccurs="0" maxOccurs="unbounded" type="NodeInfo" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="LinksList" xmlns="RoutingProject">
+    <xs:sequence>
+      <xs:element name="Link" minOccurs="0" maxOccurs="unbounded" type="LinkInfo" />
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:complexType name="TopologyInfo" xmlns="RoutingProject">
+    <xs:all>
+      <xs:element name="Scale" minOccurs="0" maxOccurs="1" type="ScaleInfo" />
+      <xs:element name="Nodes" minOccurs="0" maxOccurs="1" type="NodesList" />
+      <xs:element name="Routers" minOccurs="0" maxOccurs="1" type="RoutersList" />
+      <xs:element name="EPs" minOccurs="0" maxOccurs="1" type="EPsList" />
+      <xs:element name="Links" minOccurs="0" maxOccurs="1" type="LinksList" />
+    </xs:all>
+    <xs:attribute name="Scale" type="xs:float" use="optional" />
+  </xs:complexType>
+  
+  <xs:element name="Topology" type="TopologyInfo" xmlns="RoutingProject" />
+</xs:schema>

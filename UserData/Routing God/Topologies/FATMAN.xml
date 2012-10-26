@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Nodes>
+    <Router ni:Name="AdamSmithCollege" ni:X="18.80934" ni:Y="-7.462708" ni:Z="-1.99748" ni:Colour="Green" xmlns="RoutingProject" />
+    <Router ni:Name="CarnegieCollege" ni:X="19.80934" ni:Y="-7.462708" ni:Z="-1.99748" ni:Colour="Green" xmlns="RoutingProject" />
+    <Router ni:Name="PoP" ni:X="19.30934" ni:Y="-8.962708" ni:Z="-1.99748" ni:Colour="Purple" xmlns="RoutingProject" />
+    <Router ni:Name="UoDFife" ni:X="21.30934" ni:Y="-8.962708" ni:Z="-1.99748" ni:Colour="Blue" xmlns="RoutingProject" />
+    <Router ni:Name="ElmwoodCollege" ni:X="21.80934" ni:Y="-11.46271" ni:Z="-1.99748" ni:Colour="Green" xmlns="RoutingProject" />
+    <Router ni:Name="DundeeCollege" ni:X="20.30934" ni:Y="-11.46271" ni:Z="-1.997478" ni:Colour="Green" xmlns="RoutingProject" />
+    <Router ni:Name="AngusCollege" ni:X="17.80934" ni:Y="-11.46271" ni:Z="-1.99748" ni:Colour="Green" xmlns="RoutingProject" />
+    <Router ni:Name="Leeds" ni:X="15.80934" ni:Y="-12.96271" ni:Z="-1.99748" ni:Colour="Orange" xmlns="RoutingProject" />
+    <Router ni:Name="Glasgow" ni:X="15.68151" ni:Y="-17.93839" ni:Z="-1.99748" ni:Colour="Orange" xmlns="RoutingProject" />
+    <Router ni:Name="UofStAndrews" ni:X="22.30934" ni:Y="-12.96271" ni:Z="-1.997478" ni:Colour="Blue" xmlns="RoutingProject" />
+    <Router ni:Name="UofDundee" ni:X="23.30934" ni:Y="-15.46271" ni:Z="-1.99748" ni:Colour="Blue" xmlns="RoutingProject" />
+    <Router ni:Name="UofAbertay" ni:X="22.18151" ni:Y="-17.93839" ni:Z="-1.99748" ni:Colour="Blue" xmlns="RoutingProject" />
+    <Router ni:Name="RNEP1" ni:X="19.30934" ni:Y="-12.96271" ni:Z="-1.99748" ni:Colour="Purple" xmlns="RoutingProject" />
+    <Router ni:Name="RNEP2" ni:X="19.18151" ni:Y="-17.93839" ni:Z="-1.99748" ni:Colour="Purple" xmlns="RoutingProject" />
+  </ni:Nodes>
+  <ni:Links>
+    <ni:Link ni:From="UoDFife" ni:To="PoP" ni:Weight=".9" />
+    <ni:Link ni:From="RNEP1" ni:To="UofStAndrews" ni:Weight=".7" />
+    <ni:Link ni:From="Glasgow" ni:To="RNEP2" ni:Weight=".5" />
+    <ni:Link ni:From="RNEP2" ni:To="UofDundee" ni:Weight=".5" />
+    <ni:Link ni:From="UofAbertay" ni:To="RNEP2" ni:Weight=".7" />
+    <ni:Link ni:From="AngusCollege" ni:To="RNEP1" ni:Weight=".9" />
+    <ni:Link ni:From="Glasgow" ni:To="Leeds" ni:Weight=".5" />
+    <ni:Link ni:From="AdamSmithCollege" ni:To="PoP" ni:Weight=".9" />
+    <ni:Link ni:From="RNEP1" ni:To="RNEP2" ni:Weight=".3"/>
+    <ni:Link ni:From="UofDundee" ni:To="RNEP1" ni:Weight=".7"/>
+    <ni:Link ni:From="UofAbertay" ni:To="RNEP1" ni:Weight=".7" />
+    <ni:Link ni:From="PoP" ni:To="CarnegieCollege" ni:Weight=".9" />
+    <ni:Link ni:From="ElmwoodCollege" ni:To="RNEP1" ni:Weight=".9" />
+    <ni:Link ni:From="DundeeCollege" ni:To="RNEP1" ni:Weight=".9" />
+    <ni:Link ni:From="RNEP1" ni:To="Leeds" ni:Weight=".5" />
+    <ni:Link ni:From="UofStAndrews" ni:To="RNEP2" ni:Weight=".7" />
+    <ni:Link ni:From="PoP" ni:To="RNEP1" ni:Weight=".9" />
+  </ni:Links>
+</ni:Topology>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+	<ni:Shift ni:X="0" ni:Y="2" ni:Z="1" />
+	<ni:Rotation ni:X="1" ni:Y="0" ni:Z="0" ni:Angle="90" />
+	<ni:Nodes>
+		<Router ni:Name="A" ni:X="-6.879974" ni:Y="-0.1829834" ni:Z="0.04046631" ni:Colour="-65536" xmlns="RoutingProject" />
+		<Router ni:Name="B" ni:X="-0.2197037" ni:Y="-0.1833954" ni:Z="6.37101" ni:Colour="-16744448" xmlns="RoutingProject" />
+		<Router ni:Name="C" ni:X="6.681946" ni:Y="-0.1833954" ni:Z="0.1152515" ni:Colour="-23296" xmlns="RoutingProject" />
+		<Router ni:Name="D" ni:X="0.1197586" ni:Y="-0.1833954" ni:Z="-6.188856" ni:Colour="-256" xmlns="RoutingProject" />
+	</ni:Nodes>
+	<ni:Links>
+		<ni:Link ni:From="A" ni:To="B" ni:Weight="0.5" />
+		<ni:Link ni:From="A" ni:To="C" ni:Weight="0.9" />
+		<ni:Link ni:From="B" ni:To="C" ni:Weight="0.3" />
+		<ni:Link ni:From="B" ni:To="D" ni:Weight="1" />
+		<ni:Link ni:From="C" ni:To="D" ni:Weight=".2" />
+	</ni:Links>
+</ni:Topology>

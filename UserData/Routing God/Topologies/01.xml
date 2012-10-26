@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Routers>
+    <ni:Router ni:Name="Router0" ni:X="2.96669" ni:Y="-4.159752" ni:Z="-3.432646" ni:Colour="-65536" />
+    <ni:Router ni:Name="Router1" ni:X="7.152344" ni:Y="-5.40255" ni:Z="-3.432648" ni:Colour="-23296" />
+    <ni:Router ni:Name="Router2" ni:X="7.809593" ni:Y="-2.063766" ni:Z="-3.432648" ni:Colour="-256" />
+    <ni:Router ni:Name="Router3" ni:X="9.006996" ni:Y="-3.913696" ni:Z="-3.432648" ni:Colour="-16744448" />
+  </ni:Routers>
+  <ni:Links>
+    <ni:Link ni:From="Router1" ni:To="Router2" ni:Weight="-1" />
+    <ni:Link ni:From="Router0" ni:To="Router3" ni:Weight="-1" />
+    <ni:Link ni:From="Router3" ni:To="Router2" ni:Weight="-1" />
+    <ni:Link ni:From="Router2" ni:To="Router0" ni:Weight="-1" />
+    <ni:Link ni:From="Router0" ni:To="Router1" ni:Weight="-1" />
+    <ni:Link ni:From="Router1" ni:To="Router3" ni:Weight="-1" />
+  </ni:Links>
+</ni:Topology>

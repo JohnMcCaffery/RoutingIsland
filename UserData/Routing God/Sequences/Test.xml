@@ -1,0 +1,851 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events>
+  <Method Interface="Diagrams.IModule" Name="AddNode" Hash="45140169" Time="0">
+    <Parameters>
+      <name>
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router0</string>
+      </name>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>IsEP</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <position>
+        <Type FullName="OpenMetaverse.Vector3" />
+        <Vector3 xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">
+          <X>111.260475</X>
+          <Y>119.762321</Y>
+          <Z>24.9390011</Z>
+        </Vector3>
+      </position>
+      <colour>
+        <Type FullName="System.Drawing.Color" />
+        <Color xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/System.Drawing">
+          <knownColor>141</knownColor>
+          <name i:nil="true" />
+          <state>1</state>
+          <value>0</value>
+        </Color>
+      </colour>
+    </Parameters>
+  </Method>
+  <Method Interface="Diagrams.IModule" Name="AddNode" Hash="45140169" Time="171.6">
+    <Parameters>
+      <name>
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router1</string>
+      </name>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>IsEP</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <position>
+        <Type FullName="OpenMetaverse.Vector3" />
+        <Vector3 xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">
+          <X>117.434967</X>
+          <Y>119.208595</Y>
+          <Z>24.939003</Z>
+        </Vector3>
+      </position>
+      <colour>
+        <Type FullName="System.Drawing.Color" />
+        <Color xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/System.Drawing">
+          <knownColor>127</knownColor>
+          <name i:nil="true" />
+          <state>1</state>
+          <value>0</value>
+        </Color>
+      </colour>
+    </Parameters>
+  </Method>
+  <Method Interface="Diagrams.IModule" Name="AddNode" Hash="45140169" Time="670.8">
+    <Parameters>
+      <name>
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router2</string>
+      </name>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>IsEP</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <position>
+        <Type FullName="OpenMetaverse.Vector3" />
+        <Vector3 xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">
+          <X>115.410576</X>
+          <Y>121.621956</Y>
+          <Z>24.9390011</Z>
+        </Vector3>
+      </position>
+      <colour>
+        <Type FullName="System.Drawing.Color" />
+        <Color xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/System.Drawing">
+          <knownColor>166</knownColor>
+          <name i:nil="true" />
+          <state>1</state>
+          <value>0</value>
+        </Color>
+      </colour>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-856999472" Time="405.6">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.2</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-856999472" Time="717.6">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="45140169" Time="234">
+    <Parameters>
+      <from IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router2</string>
+      </from>
+      <to IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router0</string>
+      </to>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <weight>
+        <Type FullName="System.Single" />
+        <float xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+      <listen>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </listen>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="305799942" Time="78">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.2</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="305799942" Time="670.8">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="45140169" Time="124.8">
+    <Parameters>
+      <from IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router0</string>
+      </from>
+      <to IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router1</string>
+      </to>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <weight>
+        <Type FullName="System.Single" />
+        <float xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+      <listen>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </listen>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="1871883883" Time="280.8">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.2</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="1871883883" Time="764.4">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="45140169" Time="124.8">
+    <Parameters>
+      <from IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router1</string>
+      </from>
+      <to IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router2</string>
+      </to>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <weight>
+        <Type FullName="System.Single" />
+        <float xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+      <listen>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </listen>
+    </Parameters>
+  </Method>
+  <Method Interface="Diagrams.IModule" Name="AddNode" Hash="45140169" Time="3276">
+    <Parameters>
+      <name>
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">EP0</string>
+      </name>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>IsEP</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">true</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <position>
+        <Type FullName="OpenMetaverse.Vector3" />
+        <Vector3 xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">
+          <X>105.0248</X>
+          <Y>119.432053</Y>
+          <Z>24.9390011</Z>
+        </Vector3>
+      </position>
+      <colour>
+        <Type FullName="System.Drawing.Color" />
+        <Color xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/System.Drawing">
+          <knownColor>141</knownColor>
+          <name i:nil="true" />
+          <state>1</state>
+          <value>0</value>
+        </Color>
+      </colour>
+    </Parameters>
+  </Method>
+  <Method Interface="Diagrams.IModule" Name="AddNode" Hash="45140169" Time="1060.8">
+    <Parameters>
+      <name>
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">EP1</string>
+      </name>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>IsEP</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">true</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <position>
+        <Type FullName="OpenMetaverse.Vector3" />
+        <Vector3 xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">
+          <X>117.561447</X>
+          <Y>118.088264</Y>
+          <Z>24.9390011</Z>
+        </Vector3>
+      </position>
+      <colour>
+        <Type FullName="System.Drawing.Color" />
+        <Color xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/System.Drawing">
+          <knownColor>127</knownColor>
+          <name i:nil="true" />
+          <state>1</state>
+          <value>0</value>
+        </Color>
+      </colour>
+    </Parameters>
+  </Method>
+  <Method Interface="Diagrams.IModule" Name="AddNode" Hash="45140169" Time="608.4">
+    <Parameters>
+      <name>
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">EP2</string>
+      </name>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>IsEP</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">true</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <position>
+        <Type FullName="OpenMetaverse.Vector3" />
+        <Vector3 xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/OpenMetaverse">
+          <X>112.403885</X>
+          <Y>122.177124</Y>
+          <Z>24.9390011</Z>
+        </Vector3>
+      </position>
+      <colour>
+        <Type FullName="System.Drawing.Color" />
+        <Color xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/System.Drawing">
+          <knownColor>166</knownColor>
+          <name i:nil="true" />
+          <state>1</state>
+          <value>0</value>
+        </Color>
+      </colour>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-51232597" Time="405.6">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.2</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-51232597" Time="670.8">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="45140169" Time="140.4">
+    <Parameters>
+      <from IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">EP2</string>
+      </from>
+      <to IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router2</string>
+      </to>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <weight>
+        <Type FullName="System.Single" />
+        <float xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+      <listen>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </listen>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="1514851344" Time="655.2">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.2</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="1514851344" Time="1450.8">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="45140169" Time="140.4">
+    <Parameters>
+      <from IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">EP1</string>
+      </from>
+      <to IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router1</string>
+      </to>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <weight>
+        <Type FullName="System.Single" />
+        <float xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+      <listen>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </listen>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-1214032011" Time="1326">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.2</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-1214032011" Time="764.4">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModule" Name="AddLink" Hash="45140169" Time="156">
+    <Parameters>
+      <from IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">EP0</string>
+      </from>
+      <to IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Router0</string>
+      </to>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>CreatorID</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://schemas.datacontract.org/2004/07/OpenMetaverse" i:type="d4p1:UUID">
+                <d4p1:Guid>1c04d25a-cb71-461b-bf8d-0199cd190112</d4p1:Guid>
+              </d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Creator</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Routing God</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+      <weight>
+        <Type FullName="System.Single" />
+        <float xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</float>
+      </weight>
+      <bidirectional>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </bidirectional>
+      <listen>
+        <Type FullName="System.Boolean" />
+        <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
+      </listen>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-1214032011" Time="577.2">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0.2</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+  <Method Interface="Diagrams.IModel" Name="Send" Hash="64787343" Time="1154.4">
+    <Parameters>
+      <from IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">EP0</string>
+      </from>
+      <to IsID="True">
+        <Type FullName="System.String" />
+        <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">EP2</string>
+      </to>
+      <parameters>
+        <Type FullName="common.framework.impl.util.Parameters" />
+        <Parameters xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/common.framework.impl.util">
+          <Data xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <d2p1:KeyValuePairOfstringanyType>
+              <d2p1:key>Visualise</d2p1:key>
+              <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">false</d2p1:value>
+            </d2p1:KeyValuePairOfstringanyType>
+          </Data>
+        </Parameters>
+        <RequiredTypes>
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2[]">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+          <RequiredType FullName="OpenMetaverse.UUID" />
+          <RequiredType FullName="System.Collections.Generic.KeyValuePair`2">
+            <GenericArgument FullName="System.String" />
+            <GenericArgument FullName="System.Object" />
+          </RequiredType>
+        </RequiredTypes>
+      </parameters>
+    </Parameters>
+  </Method>
+  <PropertySet Interface="common.framework.interfaces.entities.ILogicEntity" Name="Selected" Hash="-1214032011" Time="15.6">
+    <Parameters>
+      <value>
+        <Type FullName="System.Double" />
+        <double xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</double>
+      </value>
+    </Parameters>
+  </PropertySet>
+</Events>

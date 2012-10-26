@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ni:Topology xmlns:ni="RoutingProject">
+  <ni:Nodes>
+    <Node ni:Name="Router0" ni:X="-2.920959" ni:Y="-3.961388" ni:Z="-6.297178" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="Router1" ni:X="-5.769051" ni:Y="-4.755608" ni:Z="-6.297178" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="Router2" ni:X="-6.380836" ni:Y="-1.990746" ni:Z="-6.297178" ni:Colour="0" xmlns="RoutingProject" />
+    <Node ni:Name="Router3" ni:X="-1.54467" ni:Y="-4.870247" ni:Z="-6.297178" ni:Colour="-16744448" xmlns="RoutingProject" />
+    <Node ni:Name="Router4" ni:X="-3.338867" ni:Y="-4.558907" ni:Z="-6.297178" ni:Colour="-16776961" xmlns="RoutingProject" />
+  </ni:Nodes>
+</ni:Topology>

@@ -1,0 +1,10 @@
+No starting '/' for a relative path.
+Config Flags
+f / ConfigFile - If BaseFolder is not specified the directory where the ConfigFile is located will be used.
+a / Assembly - Relative to the Opensim Bin directory
+c / Class - Include namesplace
+b / BaseFolder - Relative path will be taken from the directory where the ConfigFile is located.
+n / Name
+i / GodID - Takes priority over name.
+u / GodName
+s / ShadowCopy - Set to 'false' to work with mono. Has to be 'true' in windows to allow a loaded library to be recompiled while it is being used.
