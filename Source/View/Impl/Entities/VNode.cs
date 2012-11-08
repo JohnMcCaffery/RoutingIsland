@@ -180,7 +180,10 @@ namespace core.view.impl.entities {
                         board.Pos = new Vector3(x, y, (z + (board.Scale.Z / 2)) - (boardHeight / 2));
                     }
                     board.Scale = new Vector3(board.Scale.X, board.Scale.Y, boardHeight);
-                    board.Texture = image;
+                    if (board.Shape == PrimType.Box)
+                        board.SetFaceTexture(4, image);
+                    else
+                        board.Texture = image;
                 }
             }
         }

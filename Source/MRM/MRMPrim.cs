@@ -600,5 +600,16 @@ namespace Diagrams.MRM {
             foreach (EntityTouchedDelegate touched in _touchedDelegates.ToArray())
                 _OnWorldTouch -= touched;
         }
+
+        public int FaceCount {
+            get { return InWorld ? _obj.Materials.Length : 0; }
+        }
+
+        public void SetFaceTexture(int face, Bitmap image) {
+            if (InWorld) {
+                UUID tex = _factory.MakeTexture(image);
+                _obj.Materials[face].Texture = tex;
+            }
+        }
     }
 }

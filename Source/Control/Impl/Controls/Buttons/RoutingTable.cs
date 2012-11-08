@@ -31,6 +31,7 @@ using common.framework.impl.util;
 using common.framework.interfaces.entities;
 using common.framework.interfaces.basic;
 using Diagrams.Control.Impl.Entities;
+using System.Drawing;
 
 namespace Diagrams.Control.Impl.Controls.Buttons {
     public class RoutingTable {
@@ -46,12 +47,17 @@ namespace Diagrams.Control.Impl.Controls.Buttons {
             _control = control;
             _button = button;
 
-            foreach (var prim in button.Prims)
+            foreach (var prim in button.Prims) {
                 control.Record.MakeMapped<IEntity>(new MappableEntity(prim));
+                prim.Glow = 0d;
+                if (prim.IsAttachment) prim.Colour = Color.LightGray;
+            }
 
             button.OnTouched += (source, args) => {
+                IPrim p = primFactory[source];
                 if (_selectedButtons.Contains(source)) {
-                    primFactory[source].Glow = 0d;
+                    p.Glow = 0d;
+                    if (p.IsAttachment) p.Colour = Color.LightGray;
                     _selectedButtons.Remove(source);
                     if (_selectedButtons.Count == 0)
                         control.State.ResetState(args.AvatarName, args.AvatarID);
@@ -68,7 +74,8 @@ namespace Diagrams.Control.Impl.Controls.Buttons {
                             control.Record.MakeMapped<IEntity>(new MappableEntity(primFactory[source]));
                             _prims.Add(source);
                         }
-                        primFactory[source].Glow = control.ToggleGlow;
+                        p.Glow = control.ToggleGlow;
+                        if (p.IsAttachment) p.Colour = Color.White;
                         control.State.SetState(SandboxControl.DisplayTableSelected, args.AvatarName, args.AvatarID);
                     }
                 }

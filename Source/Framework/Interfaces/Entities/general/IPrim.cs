@@ -169,5 +169,16 @@ namespace common.framework.interfaces.basic {
         /// True if this board is a child in a link set.
         /// </summary>
         bool IsChild { get; }
+
+        /// <summary>
+        /// Find out how many faces the primitive has.
+        /// </summary>
+        int FaceCount { get; }
+        /// <summary>
+        /// Set the texture for a specific face of the primitive.
+        /// </summary>
+        /// <param name="face">The face to set the texture for.</param>
+        /// <param name="image">The textue to apply to face.</param>
+        void SetFaceTexture(int face, Bitmap image);
     }
 }
