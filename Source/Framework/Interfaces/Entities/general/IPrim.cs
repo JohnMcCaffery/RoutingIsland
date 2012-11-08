@@ -164,5 +164,10 @@ namespace common.framework.interfaces.basic {
         ///   Remove the entity from the world
         /// </summary>
         bool Destroy();
+
+        /// <summary>
+        /// True if this board is a child in a link set.
+        /// </summary>
+        bool IsChild { get; }
     }
 }

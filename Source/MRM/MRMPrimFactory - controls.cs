@@ -37,6 +37,7 @@ namespace Diagrams {
 
     public partial class MRMPrimFactory {
         private readonly Dictionary<uint, TouchButton> _linkButtons;
+        private readonly Dictionary<uint, UUID> _linkIDs;
         private readonly Dictionary<string, HashSet<UUID>> _knowButtons;     
         private readonly int _pingChannel;
         private readonly string _ping, _pingAck, _chanAck;
@@ -85,8 +86,11 @@ namespace Diagrams {
                 RegisterButtonPrim(child.Name, child.GlobalID);
 
             root.OnTouch += (entity, args) => {
-                if (_linkButtons.ContainsKey(args.LinkNumber))
-                    _linkButtons[args.LinkNumber].TriggerTouched(root, args);
+                if (_linkButtons.ContainsKey(args.LinkNumber)) {
+                    IObject child = root.Children.FirstOrDefault(obj => obj.LocalID == args.LinkNumber);
+                    if (child != null)
+                        _linkButtons[args.LinkNumber].TriggerTouched(child, args);
+                }
             };
         }
 
@@ -101,8 +105,11 @@ namespace Diagrams {
                 _knowButtons[name].Add(id);
 
             new MRMPrim(id, this).OnWorldDelete += delID => {
-                lock (_knowButtons)
-                    _knowButtons.Remove(name);
+                lock (_knowButtons) {
+                    _knowButtons[name].Remove(id);
+                    if (_knowButtons[name].Count == 0)
+                        _knowButtons.Remove(name);
+                }
             };
 
             _logger.Debug("Registered " + name + " as a button.");

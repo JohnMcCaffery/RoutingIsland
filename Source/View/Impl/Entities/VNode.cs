@@ -167,9 +167,18 @@ namespace core.view.impl.entities {
                 image = new Bitmap(image, new Size(Resolution, Resolution));
 
                 foreach (var board in boards) {
-                    float boardHeight = board.Scale.Y / (Resolution / height);                    
-                    Vector3 pos = board.IsAttachment ? board.LocalPos : board.Pos;
-                    board.Pos = new Vector3(pos.X, pos.Y, (pos.Z + (board.Scale.Z / 2)) - (boardHeight / 2));
+                    float boardHeight = board.Scale.Y / (Resolution / height);
+                    if (board.IsChild) {
+                        float x = board.LocalPos.X;
+                        float y = board.LocalPos.Y;
+                        float z = board.LocalPos.Z;
+                        board.LocalPos = new Vector3(x, y, (z + (board.Scale.Z / 2)) - (boardHeight / 2));
+                    } else {
+                        float x = board.IsAttachment ? board.LocalPos.X : board.Pos.X;
+                        float y = board.IsAttachment ? board.LocalPos.Y : board.Pos.Y;
+                        float z = board.IsAttachment ? board.LocalPos.Z : board.Pos.Z;
+                        board.Pos = new Vector3(x, y, (z + (board.Scale.Z / 2)) - (boardHeight / 2));
+                    }
                     board.Scale = new Vector3(board.Scale.X, board.Scale.Y, boardHeight);
                     board.Texture = image;
                 }

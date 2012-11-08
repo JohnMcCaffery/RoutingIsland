@@ -294,6 +294,10 @@ namespace Diagrams.MRM {
             get { return InWorld && _obj.IsAttachment; }
         }
 
+        public bool IsChild {
+            get { return InWorld && !_obj.Root.GlobalID.Equals(ID); }
+        }
+
         public UUID ID {
             get { return _id; }
         }
