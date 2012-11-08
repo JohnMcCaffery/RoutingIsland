@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ni:Topology xmlns:ni="RoutingProject">
-	<ni:Shift ni:X="0" ni:Y="7" ni:Z="0" />
+	<ni:Shift ni:X="6" ni:Y="0" ni:Z="0" />
 	<ni:Nodes>
 		<EP ni:Name="EP1" ni:X="-4" ni:Y="-5" ni:Z="1" ni:Colour="Blue" xmlns="RoutingProject" />
 		<Router ni:Name="Router1" ni:X="-2" ni:Y="-5" ni:Z="1" ni:Colour="-65536" xmlns="RoutingProject" />
