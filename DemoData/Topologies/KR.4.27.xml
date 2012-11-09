@@ -9,7 +9,7 @@
     <Router ni:Name="Router2" ni:X="-3" ni:Y="-2" ni:Z="0" ni:Colour="-23296" xmlns="RoutingProject" />
     <Router ni:Name="Router3" ni:X="3" ni:Y="-2" ni:Z="0" ni:Colour="-256" xmlns="RoutingProject" />
     <Router ni:Name="Router4" ni:X="5" ni:Y="0" ni:Z="0" ni:Colour="-6632142" xmlns="RoutingProject" />
-    <Router ni:Name="Router5" ni:X="3" ni:Y="2" ni:Z="0" ni:Colour="-36776961" xmlns="RoutingProject" />
+    <Router ni:Name="Router5" ni:X="3" ni:Y="2" ni:Z="0" ni:Colour="Maroon" xmlns="RoutingProject" />
     <Router ni:Name="Router6" ni:X="-3" ni:Y="2" ni:Z="0" ni:Colour="-7722014" xmlns="RoutingProject" />
   </ni:Nodes>
   <ni:Links>
