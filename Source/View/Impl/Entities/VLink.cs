@@ -163,7 +163,7 @@ namespace core.view.impl.entities {
             float width = MinWidth;
 
             if (!distanceWeight) {
-                float weightInverse = 1f - (weight > 1f ? 1f : weight);
+                float weightInverse = (weight > 1f ? 1f : weight);
                 float widthRange = (MaxWidth - MinWidth) / 1;
                 float zeroedWidth = weightInverse * widthRange;
                 width = MinWidth + zeroedWidth;

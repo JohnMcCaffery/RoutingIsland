@@ -252,7 +252,7 @@ namespace Diagrams.Control.impl.Entities {
         }
 
         private void ShowLinkDialog(string name, UUID id) {
-            _dialog.Show(Name, id, Name + " weight = " + Math.Round(_bufferedChanges[id], 2) + "." +
+            _dialog.Show(Name, id, Math.Round(_bufferedChanges[id], 2) + " = weight for " + Name + "." +
                 "\nTo set an arbitrary weight type '/" + Dialog.ChatChannel + " WEIGHT' then press Ok." +
                 "\nOtherwise use the buttons provided.");
         }
