@@ -136,8 +136,12 @@ namespace Diagrams.Control.impl.Util {
             return doc;
         }
 
-        public override string GetFolder(string name) {
-            return Path.Combine(base.GetFolder(name), _topologyFolder);
+        public override string GetUserFolder(string name) {
+            return Path.Combine(base.GetUserFolder(name), _topologyFolder);
+        }
+
+        public override string SharedFolder {
+            get { return _sharedFolder == null ? null : Path.Combine(base.SharedFolder, _topologyFolder); }
         }
 
         /// <summary>
@@ -146,7 +150,7 @@ namespace Diagrams.Control.impl.Util {
         /// <param name="events">The events to load the topology from.</param>
         public virtual void LoadTopology(string user, UUID userID, string file) {
             string shortFile = file;
-            file = GetFile(GetFolder(user), file);
+            file = GetFile(GetUserFolder(user), file);
             XmlDocument doc = Validate(shortFile, file);
             if (doc == null) return;
 
@@ -339,7 +343,7 @@ namespace Diagrams.Control.impl.Util {
         /// <param name="events">The filename to save the events to.</param>
         public void SaveTopology(string name, UUID id, string file) {
             string shortFile = file;
-            file = GetFile(GetFolder(name), file);
+            file = GetFile(GetUserFolder(name), file);
             Logger.Warn("Saving topology as " + file);
             if (file == null)
                 return;

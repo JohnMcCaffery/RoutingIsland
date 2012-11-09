@@ -64,7 +64,7 @@ namespace Diagrams.Control.Impl.Module {
                         Topology.SaveTopology(name, id, args[1]);
                     } else {
                         HostPrim.Say("Showing Dialog");
-                        SaveDialog save = new SaveDialog(HostPrim, primFactory, "Topology", topologyDefault, user => Topology.GetFolder(god));
+                        SaveDialog save = new SaveDialog(HostPrim, primFactory, "Topology", topologyDefault, user => Topology.GetUserFolder(god));
                         save.OnSave += (userName, userID, file) => Topology.SaveTopology(name, id, file);
                         save.Show(name, id);
                     }

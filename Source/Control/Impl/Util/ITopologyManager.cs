@@ -36,6 +36,11 @@ namespace Diagrams.Control.impl.Util {
         /// </summary>
         void SaveTopology(string name, UUID id, string file);
 
-        string GetFolder(string name);
+        string GetUserFolder(string name);
+
+        /// <summary>
+        /// The folder where shared topologies are stored.
+        /// </summary>
+        string SharedFolder { get; }
     }
 }

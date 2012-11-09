@@ -40,7 +40,7 @@ namespace Diagrams.Control.impl.Buttons.ControlButtons {
         public Save(IButton button, SandboxControl control, IPrimFactory factory, IConfig controlConfig)
             : base(button) {
 
-            _save = new SaveDialog(button.Prims.Count() > 0 ? button.Prims.First() : factory.Host, factory, "topology", control.DefaultTopologyName, name => control.Topology.GetFolder(name));
+            _save = new SaveDialog(button.Prims.Count() > 0 ? button.Prims.First() : factory.Host, factory, "topology", control.DefaultTopologyName, name => control.Topology.GetUserFolder(name));
             _save.OnSave += (name, id, file) => control.Topology.SaveTopology(name, id, file);
         }
             

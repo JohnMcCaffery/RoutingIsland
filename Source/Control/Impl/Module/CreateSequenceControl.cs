@@ -71,7 +71,7 @@ namespace Diagrams.Control.Impl.Module {
                             Record.SaveRecording(god, args[1]);
                     } else {
                         HostPrim.Say("Showing Dialog");
-                        SaveDialog save = new SaveDialog(HostPrim, primFactory, "Sequence", sequenceDefault, user => Record.GetFolder(god));
+                        SaveDialog save = new SaveDialog(HostPrim, primFactory, "Sequence", sequenceDefault, user => Record.GetUserFolder(god));
                         save.OnSave += (user, userID, file) => {
                             if (topology == null)
                                 Record.SaveRecording(god, file);

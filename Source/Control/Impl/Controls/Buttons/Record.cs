@@ -41,7 +41,7 @@ namespace Diagrams.Control.impl.Buttons.ControlButtons {
             : base(toggle) {
 
             _control = control;
-            _save = new SaveDialog(hostPrim, factory, "sequence", control.DefaultRecordingName, name => control.Record.GetFolder(name));
+            _save = new SaveDialog(hostPrim, factory, "sequence", control.DefaultRecordingName, name => control.Record.GetUserFolder(name));
             _save.OnSave += (name, id, file) => control.Record.SaveRecording(name, file);
         }
 

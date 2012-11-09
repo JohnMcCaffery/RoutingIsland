@@ -35,7 +35,7 @@ namespace Diagrams.Control.Impl.Module {
         public AutosaveHUD(IKeyTableFactory tableFactory, IAsynchQueueFactory queueFactory, IPrimFactory primFactory, IModel model, IConfigSource config)
             : base(tableFactory, queueFactory, primFactory, model, config) {
 
-            _autosaveFile = Path.Combine(Topology.GetFolder(Factory.Owner), AUTOSAVE_NAME);
+            _autosaveFile = Path.Combine(Topology.GetUserFolder(Factory.Owner), AUTOSAVE_NAME);
             if (File.Exists(_autosaveFile))
                 Topology.LoadTopology(Factory.Owner, Factory.Host.Owner, _autosaveFile);
         }

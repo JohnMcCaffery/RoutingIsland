@@ -29,9 +29,13 @@ using Nini.Config;
 namespace Diagrams.Control.impl.Util {
     public abstract class FileWorker {
         protected readonly string _userFolder;
+        protected readonly string _sharedFolder;
         
         protected FileWorker(IConfig controlConfig) {
             _userFolder = controlConfig.Get("UserFolder", ".");
+            _sharedFolder = controlConfig.Get("SharedFolder", null);
+            if (_sharedFolder != null)
+                _sharedFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, _sharedFolder);
         }
 
         protected string GetFile(string folder, string file) {
@@ -46,7 +50,11 @@ namespace Diagrams.Control.impl.Util {
             return file;
         }
 
-        public virtual string GetFolder(string name) {
+        public virtual string SharedFolder {
+            get { return _sharedFolder; }
+        }
+
+        public virtual string GetUserFolder(string name) {
             string folder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, _userFolder);
             folder = Path.Combine(folder, name);
             if (!File.Exists(folder))

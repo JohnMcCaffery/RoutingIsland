@@ -31,18 +31,21 @@ namespace Diagrams.Control.impl.Controls.Dialogs {
     public class SelectDialog {
         private const string MORE = "More";
 
+        private const int MAX_FILES_PER_DIALOG = 10;
+
+        private readonly Dictionary<UUID, int> _fileSubsets;
+
+        private readonly string _sharedFolder;
+
+        private readonly Func<string, string> _getFolder;
+
         private Dialog _dialog;
 
         public event Action<string, UUID, string> OnSelect;
 
-        private Func<string, string> _getFolder;
-
-        private const int MAX_FILES_PER_DIALOG = 10;
-
-        private Dictionary<UUID, int> _fileSubsets;
-
-        public SelectDialog(IPrim prim, IPrimFactory factory, Func<string, string> getFolder) {
+        public SelectDialog(IPrim prim, IPrimFactory factory, Func<string, string> getFolder, string sharedFolder) {
             _getFolder = getFolder;
+            _sharedFolder = sharedFolder;
             _fileSubsets = new Dictionary<UUID, int>();
             _dialog = new Dialog(prim, factory);
             _dialog.ResponseReceived += (name, id, pressed, chatted) => {
@@ -65,9 +68,13 @@ namespace Diagrams.Control.impl.Controls.Dialogs {
 
         private string[] GetFileButtons(string name, int fileSubset) {
             string folder = _getFolder(name);
-            if (!Directory.Exists(folder))
+            if (!Directory.Exists(folder) && (_sharedFolder == null || !Directory.Exists(_sharedFolder)))
                 return new string[] { Dialog.CANCEL };
-            IEnumerable<string> files = Directory.GetFiles(folder).Select(file => Path.GetFileName(file));
+            IEnumerable<string> files = new string[0];
+            if (Directory.Exists(folder))
+                files = Directory.GetFiles(folder).Select(file => Path.GetFileName(file)).Where(file => file.EndsWith(".xml"));
+            if (_sharedFolder != null && Directory.Exists(_sharedFolder)) 
+                files = files.Concat(Directory.GetFiles(_sharedFolder).Select(file => Path.GetFileName(file))).Where(file => file.EndsWith(".xml"));
             int numButtons = files.Count();
             int skip = MAX_FILES_PER_DIALOG * fileSubset;
             int remainingFiles = numButtons - skip;

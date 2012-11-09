@@ -46,8 +46,8 @@ namespace Diagrams.Control.impl.Buttons.ControlButtons {
 
             IPrim prim = button.Prims.Count() > 0 ? button.Prims.First() : factory.Host;
             _dialog = new Dialog(prim, factory, SEQUENCE, TOPOLOGY, Dialog.CANCEL);
-            SelectDialog openSequenceDialog = new SelectDialog(prim, factory, name => control.Record.GetFolder(name));
-            SelectDialog openTopologyDialog = new SelectDialog(prim, factory, name => control.Topology.GetFolder(name));
+            SelectDialog openSequenceDialog = new SelectDialog(prim, factory, name => control.Record.GetUserFolder(name), control.Record.SharedFolder);
+            SelectDialog openTopologyDialog = new SelectDialog(prim, factory, name => control.Topology.GetUserFolder(name), control.Topology.SharedFolder);
  
             _dialog.ResponseReceived += (name, id, text, chat) => {
                 if (text.Equals(Dialog.CANCEL))

@@ -90,8 +90,12 @@ namespace Diagrams.Control.impl.Util {
             get { return _reader.HasNextEvent; }
         }
 
-        public override string GetFolder(string name) {
-            return Path.Combine(base.GetFolder(name), _sequenceFolder);
+        public override string GetUserFolder(string name) {
+            return Path.Combine(base.GetUserFolder(name), _sequenceFolder);
+        }
+
+        public override string SharedFolder {
+            get { return _sharedFolder == null ? null :Path.Combine(base.SharedFolder, _sequenceFolder); }
         }
 
         #endregion
@@ -214,7 +218,7 @@ namespace Diagrams.Control.impl.Util {
                 return;
             }
             string shortFile = file;
-            file = GetFile(GetFolder(name), file);
+            file = GetFile(GetUserFolder(name), file);
             if (file == null)
                 return;
 
@@ -251,7 +255,7 @@ namespace Diagrams.Control.impl.Util {
         /// <param name="events">The events where the sequence of events is stored.</param>
         public void PlayRecording(string name, UUID id, string file) {
             string shortFile = file;
-            file = GetFile(GetFolder(name), file);
+            file = GetFile(GetUserFolder(name), file);
             if (file == null)
                 throw new ArgumentException("Control event playback cannot load null file.");
             if (!File.Exists(file))

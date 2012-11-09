@@ -67,6 +67,15 @@ namespace Diagrams.Control.impl.Util {
         /// </summary>
         T MakeMapped<T>(T instance) where T : class, IEntity;
         
-        string GetFolder(string name);
+        /// <summary>
+        /// The folder where topologies for a given user are stored.
+        /// </summary>
+        /// <param name="name">The user to get the folder for.</param>
+        /// <returns></returns>
+        string GetUserFolder(string name);
+        /// <summary>
+        /// The folder where shared topologies are stored.
+        /// </summary>
+        string SharedFolder { get; }
     }
 }
