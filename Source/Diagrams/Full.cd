@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
-  <Class Name="common.framework.abs.wrapper.LogicEntityWrapper">
-    <Position X="31.25" Y="6.5" Width="2.75" />
+  <Class Name="common.framework.abs.wrapper.LogicEntityWrapper" Collapsed="true">
+    <Position X="9.25" Y="7" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAIAlEAEgQAAAMQAAABAAIACEIAAEBAAAAI=</HashCode>
       <FileName>Framework\Abs\Entities\general\LogicEntityWrapper.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="common.framework.abs.wrapper.LinkWrapper&lt;TNode&gt;">
-    <Position X="33" Y="13.75" Width="3" />
+  <Class Name="common.framework.abs.wrapper.LinkWrapper&lt;TNode&gt;" Collapsed="true">
+    <Position X="10.75" Y="8.5" Width="1.75" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -19,8 +19,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="common.framework.abs.wrapper.NodeWrapper">
-    <Position X="29.75" Y="13.75" Width="3" />
+  <Class Name="common.framework.abs.wrapper.NodeWrapper" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -30,16 +30,16 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="common.framework.abs.full.LogicEntity" BaseTypeListCollapsed="true">
-    <Position X="26.75" Y="8.25" Width="2.75" />
+  <Class Name="common.framework.abs.full.LogicEntity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAIAlAAEgQAAAMQAAABAAIACAIAAABAAAAI=</HashCode>
       <FileName>Framework\Abs\Entities\general\LogicEntity.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.AbstractModule&lt;TNode, TLink&gt;" BaseTypeListCollapsed="true">
-    <Position X="39" Y="0.5" Width="2.5" />
+  <Class Name="Diagrams.AbstractModule&lt;TNode, TLink&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="2.25" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -49,8 +49,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.MLink">
-    <Position X="33" Y="18.25" Width="2" />
+  <Class Name="Diagrams.MLink" Collapsed="true">
+    <Position X="10" Y="9.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -60,16 +60,16 @@
     </TypeIdentifier>
     <Lollipop Position="0.913" />
   </Class>
-  <Class Name="Diagrams.MPacket">
-    <Position X="26.75" Y="13.75" Width="2.75" />
+  <Class Name="Diagrams.MPacket" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAgAAFAAAAQAAAGAAAIBAAAAGAQAABASAAAA=</HashCode>
       <FileName>Model\Impl\Entities\MPacket.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.Model">
-    <Position X="39" Y="6.5" Width="3" />
+  <Class Name="Diagrams.Model" Collapsed="true">
+    <Position X="11.75" Y="3" Width="2.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -79,8 +79,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="core.view.impl.entities.VLink">
-    <Position X="18" Y="13.75" Width="3" />
+  <Class Name="core.view.impl.entities.VLink" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -90,16 +90,16 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="core.view.impl.entities.VNode">
-    <Position X="21.25" Y="13.75" Width="3" />
+  <Class Name="core.view.impl.entities.VNode" Collapsed="true">
+    <Position X="2.25" Y="9.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAAAAAAAAEAMAAAoAgEADgIAAAAgIGAgAAAOI=</HashCode>
       <FileName>View\Impl\Entities\VNode.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.VPacket">
-    <Position X="24.5" Y="13.75" Width="1.75" />
+  <Class Name="Diagrams.VPacket" Collapsed="true">
+    <Position X="4" Y="9.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -109,8 +109,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.View">
-    <Position X="36.5" Y="6.5" Width="2.25" />
+  <Class Name="Diagrams.View" Collapsed="true">
+    <Position X="9.5" Y="3" Width="2" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -120,8 +120,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.Control.Impl.Module.Control">
-    <Position X="42.5" Y="6.5" Width="2.5" />
+  <Class Name="Diagrams.Control.Impl.Module.Control" Collapsed="true">
+    <Position X="14.5" Y="3" Width="2.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -131,15 +131,15 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.Control.Impl.Module.SandboxControl">
-    <Position X="45.5" Y="6.5" Width="2.5" />
+  <Class Name="Diagrams.Control.Impl.Module.SandboxControl" Collapsed="true">
+    <Position X="16.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BEYCAAAABAAAAFQIAAABAwAAgCAQjAAIIAQQACAAAAA=</HashCode>
       <FileName>Control\Impl\Module\Abs\SandboxControl.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Diagrams.AbstractAlgorithmNode">
-    <Position X="56" Y="4.5" Width="3.25" />
+  <Class Name="Diagrams.AbstractAlgorithmNode" Collapsed="true">
+    <Position X="14.75" Y="8.5" Width="1.75" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -149,8 +149,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.MNode">
-    <Position X="27.5" Y="18.25" Width="3.25" />
+  <Class Name="Diagrams.MNode" Collapsed="true">
+    <Position X="8.25" Y="9.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -167,8 +167,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.MRM.MRMPrim">
-    <Position X="18.25" Y="0.5" Width="2.75" />
+  <Class Name="Diagrams.MRM.MRMPrim" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -178,8 +178,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.MRMPrimFactory">
-    <Position X="26" Y="0.5" Width="3.25" />
+  <Class Name="Diagrams.MRMPrimFactory" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -196,8 +196,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="diagrams.algorithms.dijkstra.Dijkstra" BaseTypeListCollapsed="true">
-    <Position X="56.75" Y="0.5" Width="2.25" />
+  <Class Name="diagrams.algorithms.dijkstra.Dijkstra" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="9.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAIAAAABAIAAAAAEAAAAARAAAAAAAAAIAAQAAACAAA=</HashCode>
       <FileName>Algorithms.dijkstra\Dijkstra.cs</FileName>
@@ -205,8 +205,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="diagrams.algorithms.dijkstra.DijkstraNode" BaseTypeListCollapsed="true">
-    <Position X="57.75" Y="11" Width="2.75" />
+  <Class Name="diagrams.algorithms.dijkstra.DijkstraNode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="9.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -217,8 +217,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="diagrams.algorithms.dv.DV" BaseTypeListCollapsed="true">
-    <Position X="54.25" Y="0.5" Width="2.25" />
+  <Class Name="diagrams.algorithms.dv.DV" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIAAAABAIAAAAAEAAAABQAAAAAAAAAIAAQAAAAAAQ=</HashCode>
       <FileName>Algorithms.dv\DV.cs</FileName>
@@ -226,8 +226,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="diagrams.algorithms.dv.DVNode" BaseTypeListCollapsed="true">
-    <Position X="54.75" Y="11" Width="2.75" />
+  <Class Name="diagrams.algorithms.dv.DVNode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="9.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -238,8 +238,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="diagrams.algorithms.linkstate.LinkState" BaseTypeListCollapsed="true">
-    <Position X="59.25" Y="0.5" Width="2.25" />
+  <Class Name="diagrams.algorithms.linkstate.LinkState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="10.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIAAAABAIAAAAAAAAMAAQABAAAAAAAIAAQAAAQAAA=</HashCode>
       <FileName>Algorithms.linkstate\LinkState.cs</FileName>
@@ -247,8 +247,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="diagrams.algorithms.linkstate.LinkStateNode" BaseTypeListCollapsed="true">
-    <Position X="60.75" Y="11" Width="2.25" />
+  <Class Name="diagrams.algorithms.linkstate.LinkStateNode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="11" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -259,8 +259,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.PrimWrapper">
-    <Position X="21.5" Y="8" Width="2.75" />
+  <Class Name="Diagrams.PrimWrapper" Collapsed="true">
+    <Position X="1.5" Y="8.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -269,8 +269,8 @@
       <FileName>View\Impl\Entities\PrimWrapper.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Diagrams.Control.impl.Entities.SandboxControlEP">
-    <Position X="34" Y="21.5" Width="1.75" />
+  <Class Name="Diagrams.Control.impl.Entities.SandboxControlEP" Collapsed="true">
+    <Position X="7.5" Y="11.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -279,15 +279,15 @@
       <FileName>Control\Impl\Entities\Sandbox\SandboxControlEP.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Diagrams.Control.impl.Entities.SandboxControlRouter">
-    <Position X="34" Y="23.5" Width="1.75" />
+  <Class Name="Diagrams.Control.impl.Entities.SandboxControlRouter" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Control\Impl\Entities\Sandbox\SandboxControlRouter.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Diagrams.Control.impl.Entities.SandboxControlLink">
-    <Position X="37.25" Y="19" Width="2.5" />
+  <Class Name="Diagrams.Control.impl.Entities.SandboxControlLink" Collapsed="true">
+    <Position X="11.5" Y="11" Width="1.75" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -296,8 +296,8 @@
       <FileName>Control\Impl\Entities\Sandbox\SandboxControlLink.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Diagrams.Control.impl.Entities.SandboxControlNode">
-    <Position X="31" Y="21.5" Width="2.75" />
+  <Class Name="Diagrams.Control.impl.Entities.SandboxControlNode" Collapsed="true">
+    <Position X="6.5" Y="10.75" Width="1.75" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -306,8 +306,8 @@
       <FileName>Control\Impl\Entities\Sandbox\SandboxControlNode.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Diagrams.Control.impl.Entities.ControlLink">
-    <Position X="35.25" Y="18.25" Width="1.75" />
+  <Class Name="Diagrams.Control.impl.Entities.ControlLink" Collapsed="true">
+    <Position X="11.75" Y="9.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -324,8 +324,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Diagrams.Control.impl.Entities.ControlNode">
-    <Position X="31" Y="18.25" Width="1.75" />
+  <Class Name="Diagrams.Control.impl.Entities.ControlNode" Collapsed="true">
+    <Position X="6.5" Y="9.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -335,155 +335,204 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="Diagrams.IModule">
-    <Position X="45.75" Y="0.5" Width="2.5" />
+  <Class Name="Diagrams.Control.Impl.Module.AutosaveHUD" Collapsed="true">
+    <Position X="13.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAAAgAAAAA=</HashCode>
+      <FileName>Control\Impl\Module\AutosaveHUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.Impl.Module.TopologyControl" Collapsed="true">
+    <Position X="15" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAEAAAAAgACQAAAAAAAAAAAAAAQAAAAIAAA=</HashCode>
+      <FileName>Control\Impl\Module\TopologyControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.Impl.Module.CreateSequenceControl" Collapsed="true">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAACAAAAAACQABAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Control\Impl\Module\CreateSequenceControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.Impl.Module.CreateTopologyControl" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAACAAAAAACQAAAQAAAAAAAAIAAAAAAAAAg=</HashCode>
+      <FileName>Control\Impl\Module\CreateTopologyControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.Impl.Module.FullHudControl" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Control\Impl\Module\FullHudControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.Impl.Module.LockedWallSandbox" Collapsed="true">
+    <Position X="16.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Control\Impl\Module\LockedWallSandbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagrams.Control.Impl.Module.SequenceControl" Collapsed="true">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgBAAAEAAAAAAAAACAABAAAAAABAEAIAACAAQIBAg=</HashCode>
+      <FileName>Control\Impl\Module\SequenceControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Diagrams.IModule" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAgAAAAAAAAAAEEAAAAAAAAAAQAAAAAIAAAAABIAAA=</HashCode>
       <FileName>Framework\Interfaces\Module\general\IModule.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Diagrams.IModel">
-    <Position X="47.25" Y="3.5" Width="2.75" />
+  <Interface Name="Diagrams.IModel" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEQEAAAAAIAAAAAAAAIAAEAAQAAAA=</HashCode>
       <FileName>Framework\Interfaces\Module\IModel.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Diagrams.IView">
-    <Position X="44.75" Y="3.5" Width="2.25" />
+  <Interface Name="Diagrams.IView" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIEAAAAAAA=</HashCode>
       <FileName>Framework\Interfaces\Module\IView.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.framework.interfaces.entities.IEntity">
-    <Position X="6.5" Y="0.5" Width="1.5" />
+  <Interface Name="common.framework.interfaces.entities.IEntity" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Framework\Interfaces\Entities\general\IEntity.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.framework.interfaces.entities.ILogicEntity">
-    <Position X="3.25" Y="0.5" Width="2.75" />
+  <Interface Name="common.framework.interfaces.entities.ILogicEntity" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAFAAAAQAAAMAAAABAAAACAIAAABAAAAI=</HashCode>
       <FileName>Framework\Interfaces\Entities\general\ILogicEntity.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.framework.interfaces.entities.ILink">
-    <Position X="4" Y="5.25" Width="3" />
+  <Interface Name="common.framework.interfaces.entities.ILink" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAAAAAQAAAAAAAAAAAAAEABAADEQAAAAAAAAAAAAAIA=</HashCode>
       <FileName>Framework\Interfaces\Entities\ILink.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.framework.interfaces.entities.ILink&lt;TNode&gt;">
-    <Position X="5.25" Y="8.5" Width="1.75" />
+  <Interface Name="common.framework.interfaces.entities.ILink&lt;TNode&gt;" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Framework\Interfaces\Entities\ILink.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.framework.interfaces.entities.INode">
-    <Position X="10.25" Y="5.25" Width="3" />
+  <Interface Name="common.framework.interfaces.entities.INode" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAA=</HashCode>
       <FileName>Framework\Interfaces\Entities\INode.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.framework.interfaces.entities.IMPacket">
-    <Position X="0.5" Y="10.75" Width="1.75" />
+  <Interface Name="common.framework.interfaces.entities.IMPacket" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAIAAAAAEAQAABASAAAA=</HashCode>
       <FileName>Model\Interfaces\entities\IMPacket.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.framework.interfaces.basic.IPrim">
-    <Position X="15.25" Y="0.5" Width="2.75" />
+  <Interface Name="common.framework.interfaces.basic.IPrim" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEAJAAQAAgFIBAAQYFAEAAAADAAAQAEAICABAAAAA=</HashCode>
       <FileName>Framework\Interfaces\Entities\general\IPrim.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.interfaces.entities.IPrimFactory">
-    <Position X="22" Y="0.5" Width="3" />
+  <Interface Name="common.interfaces.entities.IPrimFactory" Collapsed="true">
+    <Position X="5.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAAAAAIIAiAAAiQIQAAACCgABAAAAAAAAAAQ=</HashCode>
       <FileName>Framework\Interfaces\Factories\IPrimFactory.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Diagrams.IAlgorithmNode">
-    <Position X="51.5" Y="5.75" Width="3.25" />
+  <Interface Name="Diagrams.IAlgorithmNode" Collapsed="true">
+    <Position X="15" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAABAAAAAgAAACAAAAAAAAIAAAAAAKAIAAAAAAAA=</HashCode>
       <FileName>Model\Interfaces\algorithm\IAlgorithmNode.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Diagrams.IMNodeExternal">
-    <Position X="10.25" Y="7" Width="3.25" />
+  <Interface Name="Diagrams.IMNodeExternal" Collapsed="true">
+    <Position X="6.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAgAAAAAAAAABgEAEAAAAAAAAAAAAAAAACAAABAAAA=</HashCode>
       <FileName>Model\Interfaces\entities\IMNodeExternal.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Diagrams.IMNodeInternal">
-    <Position X="14" Y="7" Width="3" />
+  <Interface Name="Diagrams.IMNodeInternal" Collapsed="true">
+    <Position X="8" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAQAAAAABAAAAAECgAAAAAAAAAAACQAAAAAACAA=</HashCode>
       <FileName>Model\Interfaces\entities\IMNodeInternal.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.model.framework.interfaces.IAlgorithm">
-    <Position X="51.75" Y="0.5" Width="2.25" />
+  <Interface Name="common.model.framework.interfaces.IAlgorithm" Collapsed="true">
+    <Position X="17.25" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAAQAAAAAAA=</HashCode>
       <FileName>Model\Interfaces\algorithm\IAlgorithm.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.model.framework.interfaces.IPacket">
-    <Position X="1.5" Y="5.25" Width="1.5" />
+  <Interface Name="common.model.framework.interfaces.IPacket" Collapsed="true">
+    <Position X="1" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Framework\Interfaces\Entities\IPacket.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="core.view.interfaces.IVLink">
-    <Position X="6.5" Y="10.75" Width="2.75" />
+  <Interface Name="core.view.interfaces.IVLink" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAABAAACAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
       <FileName>View\Interfaces\IVLink.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="core.view.interfaces.IVNode">
-    <Position X="7.5" Y="7" Width="2.5" />
+  <Interface Name="core.view.interfaces.IVNode" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIEAgAAAAI=</HashCode>
       <FileName>View\Interfaces\IVNode.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="core.view.interfaces.IVPacket" BaseTypeListCollapsed="true">
-    <Position X="2.5" Y="10.75" Width="1.5" />
+  <Interface Name="core.view.interfaces.IVPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAABAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>View\Interfaces\IVPacket.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="common.framework.interfaces.layers.IControl">
-    <Position X="43" Y="3.5" Width="1.5" />
+  <Interface Name="common.framework.interfaces.layers.IControl" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAABAAAA=</HashCode>
       <FileName>Framework\Interfaces\Module\IControl.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Diagrams.IMNode">
-    <Position X="12.75" Y="10.75" Width="1.75" />
+  <Interface Name="Diagrams.IMNode" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAACAAAgAAAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>Model\Interfaces\entities\IMNode.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="common.model.framework.interfaces.IMLink" Collapsed="true">
-    <Position X="4.5" Y="10.75" Width="1.5" />
+    <Position X="4" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Model\Interfaces\entities\IMLink.cs</FileName>

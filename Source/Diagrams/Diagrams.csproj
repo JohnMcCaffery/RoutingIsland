@@ -215,7 +215,7 @@
     <None Include="AppDomainSplitter.cd" />
     <None Include="Control.cd" />
     <None Include="Full Expanded Params.cd" />
-    <None Include="Full Expanded.cd" />
+    <None Include="Full.cd" />
     <None Include="Test.cd" />
     <None Include="Wrapper.cd" />
   </ItemGroup>
