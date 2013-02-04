@@ -39,6 +39,14 @@
     <Reference Include="Nini">
       <HintPath>..\..\..\..\..\opensim-0.7.3.1\bin\Nini.dll</HintPath>
     </Reference>
+    <Reference Include="Ninject, Version=2.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\ninject-ninject.extensions.conventions-720a194\build\release\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Extensions.Conventions, Version=2.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\ninject-ninject.extensions.conventions-720a194\build\release\Ninject.Extensions.Conventions.dll</HintPath>
+    </Reference>
     <Reference Include="OpenMetaverse, Version=0.9.0.29631, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Lib\OpenMetaverse.dll</HintPath>
